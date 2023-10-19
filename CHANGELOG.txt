@@ -1,0 +1,3764 @@
+commit 8577c2cb87c9833eed57d96ed90b3c08683f12bb
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Mar 7 14:55:27 2022 +0700
+
+    added secure flag on session cookie
+
+M	includes/session.inc
+
+commit 1b6b64c4d37a4201be5fb81f661afa28f06229c3
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 19 16:14:42 2022 +0700
+
+    Removed search item list option in company setup. Rerun.
+
+M	inventory/inquiry/stock_list.php
+
+commit 5ed44f177aa9a34803a2f8269c1b581b1490fbe9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 19 16:11:57 2022 +0700
+
+    Removed search item list option in company setup.
+
+M	includes/ui/ui_lists.inc
+M	inventory/inquiry/stock_list.php
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt132-new.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 81224a0ace2de0f4c9f482a0e4ea82e73007c9b4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 19 16:08:51 2022 +0700
+
+    Updated support php version, protect pem file from direct access.
+
+M	.htaccess
+M	README.md
+
+commit 00822b8e1e9ca6f36c895d4631e644abe49087f7
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 6 19:50:58 2022 +0700
+
+    pgp8.1.1 error file_exists(): Passing null to parameter of type string is deprecated. Fixed.
+
+M	dashboard/includes/dashboard_classes.inc
+
+commit 9be1c7e4bf66371727a8efcfdbbf341c51fb8268
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 6 19:39:23 2022 +0700
+
+    php8.1.1 error Implicit conversion from float to int loses precision. Fixed.
+
+M	reporting/includes/class.graphic.inc
+
+commit 0a5790e6d559d4a7cc5552a7863a0a6800e21880
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 6 15:53:01 2022 +0700
+
+    php8.1.1 error Passing null to parameter of type string|int|float is deprecated. Fixed.
+
+M	reporting/includes/class.graphic.inc
+
+commit 3713387dd28c66555ea0627421b7b2d4da036db0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 6 01:13:27 2022 +0700
+
+    php8.1.1 error Implicit conversion from float-string to int loses precision. Fixed.
+
+M	reporting/includes/class.graphic.inc
+
+commit d16c085b548319ae54e18ee19df08bbcc2e2e7b4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 5 23:54:50 2022 +0700
+
+    php8.1.1 error continue and code cleanup.
+
+M	reporting/includes/class.graphic.inc
+
+commit 706588da6eab2de274740b0f956d5dbac200a77f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 5 22:55:47 2022 +0700
+
+    php8.1.1 error strlen(): Passing null to parameter #1 ($string) of type string is deprecated. Fixed.
+
+M	reporting/includes/class.graphic.inc
+
+commit e910ea0fd4d7a0ddff7dc88dcca57f118e79aab4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 4 16:16:47 2022 +0700
+
+    php8.1.1 error strlen(): Passing null to parameter #1 ($string) of type string is deprecated. Fixed.
+
+M	dashboard/includes/dashboard_classes.inc
+
+commit a5736b964eee0ce644c60803b159677e118bb1c9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 25 22:07:24 2022 +0700
+
+    Add and Manage Customers, Suppliers: contact persons where not removed when deleting customer/supplier. Fixed.
+
+M	includes/db/crm_contacts_db.inc
+M	purchasing/includes/db/suppliers_db.inc
+
+commit 3fffdcd61c874756059786ef9dbebb176de1913d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 18 20:28:36 2022 +0700
+
+    error: Trying to access array offset on value of type bool. Fixed.
+
+M	inventory/includes/stock_transfers_ui.inc
+
+commit 8ac8b4e2ba42525959388df244db264599bb9085
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 18 11:52:12 2022 +0700
+
+    php 8.1.1 error continue and code cleanup in bank_account_reconcile.php
+
+M	gl/bank_account_reconcile.php
+
+commit b6efc0d12982496f64ef1ef75623436c5922754d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jan 17 20:02:21 2022 +0700
+
+    php 8.1.1 error preg_match_all(): Passing null to parameter #2 ($subject) of type string is deprecated. Fixed.
+
+M	admin/inst_theme.php
+
+commit d107ae2c97d922b04bd8d38b8c166458111f84c4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jan 17 13:47:22 2022 +0700
+
+    php 8.1.1 error preg_match_all(): Passing null to parameter #2 ($subject) of type string is deprecated. Fixed.
+
+M	admin/inst_lang.php
+M	includes/packages.inc
+
+commit f8921dcddc1c1a36b49670bd89773e4c4089f742
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jan 17 07:38:35 2022 +0700
+
+    updated exchange rates provider.
+
+M	config.default.php
+M	gl/includes/db/gl_db_rates.inc
+
+commit 9877b3c2da2c157604f023d77c8a026d999c127e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jan 16 13:15:41 2022 +0700
+
+    php8.1 error preg_match_all(): Passing null to parameter #2 ($subject) of type string is deprecated. Fixed.
+
+M	admin/inst_module.php
+
+commit ed603159b8f43d153e1f9a4fdaf27d4aae7b58bb
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jan 16 00:16:15 2022 +0700
+
+    php8.1 error str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated. Fixed.
+
+M	includes/db/connect_db_mysqli.inc
+
+commit c52b06971bd6acf6b1c16ca9465b0c937f0b6b10
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jan 12 21:22:37 2022 +0700
+
+    rep309.php, rep310.php code cleanup and rearrange columns width.
+
+M	reporting/rep309.php
+M	reporting/rep310.php
+
+commit 664773087a9952eabef1a333cb10072f5c5a30c9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 11 18:43:30 2022 +0700
+
+    Search Item List option is deprecated, continue.
+
+M	includes/ui/ui_lists.inc
+
+commit 40535103ca853962d5ff1d715ed41c0a4c91c715
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 11 07:23:46 2022 +0700
+
+    rep203.php, rep204.php code cleanup and redesigned.
+
+M	reporting/rep203.php
+M	reporting/rep204.php
+
+commit 92cffbed00c40661e5a3865adab5774863fd7d44
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 11 05:32:24 2022 +0700
+
+    rep202.php code cleanup and redesigned.
+
+M	reporting/rep202.php
+
+commit 8d2186b8902c300dd71cc0e47a2449a839da1554
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jan 10 21:46:59 2022 +0700
+
+    rep201.php code cleanup and redesigned.
+
+M	reporting/rep201.php
+
+commit 472d944eaf7928dd920f0787a23689de34f91f09
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jan 10 13:51:10 2022 +0700
+
+    stock list missing items after select an ediable description item. Fixed.
+
+M	includes/ui/ui_lists.inc
+
+commit e400a294b5dd978489f52bf94bc4818d5e91fef7
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jan 9 20:52:17 2022 +0700
+
+    Search Item List option will be deprecated from 0.7
+
+M	admin/company_preferences.php
+M	includes/ui/ui_lists.inc
+M	inventory/manage/items.php
+
+commit 45c4ba997de62437611f44124de5eeca4e779bd2
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jan 9 07:53:13 2022 +0700
+
+    error item list not selected in item movements and item status pages. Fixed.
+
+M	libraries/inserts.js
+
+commit 10db6c5daa7add4994dfaa7f09f9b08d3efdb863
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jan 8 20:49:11 2022 +0700
+
+    rep103.php, rep115.php code cleanup and redesigned
+
+M	reporting/rep103.php
+M	reporting/rep115.php
+
+commit e646361251ae6c30bd07aca6158b11e3b67decaf
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jan 8 10:13:04 2022 +0700
+
+    rep102.php code cleanup and redesigned.
+
+M	reporting/rep102.php
+
+commit 0fc87518935796d97cbb8e65a202af2492620188
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jan 7 20:40:49 2022 +0700
+
+    Update gettext template, continue.
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit 67b5725e5d10622048330c057163b4b6217a8d65
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jan 7 19:58:44 2022 +0700
+
+    Update gettext template
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit bea1037f0e0808d706d06f5c824021f84f26a51c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jan 7 14:45:14 2022 +0700
+
+    rep101.php redesigned.
+
+M	reporting/rep101.php
+
+commit cb8ee3947ee379da7e90a519efc4f8aaa7a672e0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jan 6 21:54:30 2022 +0700
+
+    Update gettext template
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit e9122cd64e2db1b3b6f62c11eea92b3271822b78
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jan 6 21:17:04 2022 +0700
+
+    gettext error: Non-ASCII string. Fixed.
+
+M	includes/ui/ui_lists.inc
+
+commit 5c6347bd55e0ac0af2f2251124178b795617fbad
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jan 6 19:43:49 2022 +0700
+
+    gettext alias missed in locations.php
+
+M	inventory/manage/locations.php
+
+commit 74e5fc3c8a6ab6ebde563fcf055742071ee2dac0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jan 5 07:33:38 2022 +0700
+
+    update gettext template.
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit 30418c9e1ffe36f9fda112a8303c2abf6b3fefc6
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jan 1 15:46:12 2022 +0700
+
+    Release 0.6
+
+M	CHANGELOG.txt
+D	docs/index.php
+D	docs/license.txt
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt132-new.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+M	version.php
+
+commit 96e3a56246512a6af57f14e7d2b9a70bb7bf4ec0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Dec 31 08:37:23 2021 +0700
+
+    Update gettext template
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit 19a36df26a045f1206776c0083f1016ae5c7001a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Dec 28 16:18:11 2021 +0700
+
+    added button colors in backup page
+
+M	themes/default/local_style/backups.css
+
+commit 2dacead8c308017da36a3c329593f30edbd977ea
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Dec 28 10:06:30 2021 +0700
+
+    Update gettext template
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit d9edaaedf9fdfe0f8217fdf6b649a313d5701a4e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Dec 27 01:05:44 2021 +0700
+
+    rep114 rearange column width.
+
+M	reporting/rep114.php
+
+commit 736de9d8c5a4b0140986eede9cd2709c33cb2ff4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Dec 23 10:50:57 2021 +0700
+
+    javascript error: Cannot read properties of null. Fixed.
+
+M	libraries/behaviour.js
+
+commit eb043ddc5c7297cfe625e8468b8029e8a0f0eb21
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Dec 23 02:24:00 2021 +0700
+
+    update getext template
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit c97b184bb312bc502fc9b3a98f39bf22d5c118b4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Dec 23 01:59:55 2021 +0700
+
+    Wrong bank account dummy data. Fixed
+
+M	sql/vi_VN-tt133-new.sql
+
+commit 5a5aec3958678c131735d54d24868f635524388b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Dec 22 11:08:12 2021 +0700
+
+    Remove unused parameters in function subledger_list_cells and code cleanup.
+
+M	gl/includes/ui/gl_journal_ui.inc
+M	includes/ui/ui_lists.inc
+
+commit c6561ec204212741a31f8171563f58f2808009f4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Dec 22 07:53:53 2021 +0700
+
+    wrong bank account names in demo data, fixed.
+
+M	sql/vi_VN-tt133-demo.sql
+
+commit 6efb8fa57ce2bd62ee0fa79f1a8b1106723df596
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Dec 21 05:52:31 2021 +0700
+
+    login page pops up on every clicks. Fixed.
+
+M	includes/session.inc
+
+commit 089774c3ed219208ecc5dab74112738172c50d0f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Dec 18 23:37:25 2021 +0700
+
+    Notes from template are not used in recurring invoices. Fixed.
+
+M	sales/create_recurrent_invoices.php
+
+commit d340d69affc001725b608dab0ec49d65724f9744
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Dec 10 13:01:59 2021 +0700
+
+    syntax error in print statements report. Fixed.
+
+M	reporting/rep108.php
+
+commit d809b7d0015ce3ed3a01d2bd08e954fc8e39d455
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Dec 7 22:42:17 2021 +0700
+
+    error undefined function delete_image(). Fixed.
+
+M	inventory/manage/items.php
+
+commit 73dfc2244fad89946b14030dc68945b2a499c850
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Dec 7 10:05:38 2021 +0700
+
+    php8 error fix.
+
+M	includes/ui/simple_crud_class.inc
+
+commit 3b6ae68269024ff1125d2e2efe4bd7126ffcafec
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Dec 6 13:22:57 2021 +0700
+
+    Updtae gettext template
+
+M	lang/new_language_template/LC_MESSAGES/empty.po
+
+commit 3be7d21aa32ef80cf045f2af40ac8ce76e5d68c5
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Dec 6 12:58:08 2021 +0700
+
+    php8 fixes, continue.
+
+M	includes/ui/simple_crud_class.inc
+
+commit a02e26df5ae49f0b9d2084c28b28a08db0b8419a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Dec 4 08:18:22 2021 +0700
+
+    The secure flag was not set on session cookie. Fixed.
+
+M	includes/session.inc
+
+commit 0b1011a01fd28898379b21df87aad964d7d36e65
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Dec 1 16:59:58 2021 +0700
+
+    prevent user to edit voided customer credit note.
+
+M	sales/credit_note_entry.php
+M	sales/includes/db/cust_trans_db.inc
+M	sales/inquiry/customer_inquiry.php
+
+commit 6e4b98d2abd4dcb835f60fe0780d7a819e781f03
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 30 06:45:32 2021 +0700
+
+    Sales invoice process issue. Fixed
+
+M	sales/includes/db/cust_trans_db.inc
+
+commit 58642f9490524bf3c0262903556cab6d124d77b5
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 29 22:38:34 2021 +0700
+
+    cleaned unused code
+
+M	manufacturing/includes/db/work_order_costing_db.inc
+
+commit be8dfeaf38adf91e9263c84548a1e303e31e200a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Nov 28 17:55:42 2021 +0700
+
+    code cleanup
+
+M	manufacturing/includes/db/work_order_costing_db.inc
+
+commit d2bb3c105a021cbc72323eaaf17754a530972f9a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 23 06:48:26 2021 +0700
+
+    php8 fix, blank page on po_receive_items.php
+
+M	purchasing/po_receive_items.php
+
+commit 0b934d91a58c1d0849ac2ce83d7d34f8096a98a4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 22 12:17:35 2021 +0700
+
+    Removed function db_fixed().
+
+M	admin/db/maintenance_db.inc
+M	admin/includes/fa_patch.class.inc
+M	includes/db/connect_db.inc
+M	includes/db/connect_db_mysql.inc
+M	includes/db/connect_db_mysqli.inc
+M	includes/session.inc
+
+commit 3025f78d1c15acb304f302f6bf6ac0aee81116d0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Nov 21 23:03:07 2021 +0700
+
+    error restoring data and messed utf8 characters. Fixed
+
+M	admin/db/maintenance_db.inc
+M	includes/db/connect_db_mysqli.inc
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt132-new.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 7769c1d0a80b7c8b817bb0141de90a93da9a4d55
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Nov 18 09:33:23 2021 +0700
+
+    config.default.inc error on startup, fixed.
+
+M	config.default.php
+
+commit 005e3fbdfa2f2408c2e7653b9bca0f44cb1e6b29
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Nov 17 23:58:35 2021 +0700
+
+    Journal entry impacts and tax in gl row supplier invoice. Fixed.
+
+M	gl/includes/db/gl_db_trans.inc
+M	includes/ui/items_cart.inc
+M	reporting/rep709.php
+
+commit 6aa478a85147f4c8b77c5f0a29c0c146ab20239f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 16 06:52:47 2021 +0700
+
+    Tax Type not displayed during initial setup if default Sales and/or Purchase Tax account deleted. Fixed
+
+M	taxes/db/tax_types_db.inc
+
+commit 79ffba2447454c74947742fcaa38e08100be97f9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Nov 13 00:12:24 2021 +0700
+
+    Fix db_pager protect count($this->extra_where)
+
+M	includes/db_pager.inc
+
+commit 647e9c7554790fbe163a9e65f1f184795389639c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Nov 11 13:24:25 2021 +0700
+
+    focus issue on inventory adjusment entry. Fixed.
+
+M	inventory/includes/item_adjustments_ui.inc
+
+commit 5ebc917942f39c318d3563cd39d0b73dc8c9ed54
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Nov 10 10:44:58 2021 +0700
+
+    Syntax error in customer inquiry. Fixed.
+
+M	sales/inquiry/customer_inquiry.php
+
+commit 10bbbf93e885d4be6547a104947ab71355826e7c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Nov 10 09:18:39 2021 +0700
+
+    Wrong journal entries amount fix and code cleanup
+
+M	gl/includes/db/gl_db_trans.inc
+
+commit e61c028de2ccca70ece33b877904b75a3b97925e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 9 23:42:04 2021 +0700
+
+    Allowing multiple jounal entries on one trans_no.
+
+M	purchasing/supplier_payment.php
+M	sales/customer_payments.php
+M	sales/includes/db/cust_trans_db.inc
+
+commit 3ef400cb355394836a5f72c9032114ddbbf9bb02
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 9 19:44:52 2021 +0700
+
+    continue of previous commits b9630b8 and b9dc736, and code cleanup.
+
+M	reporting/rep101.php
+M	reporting/rep108.php
+M	sales/includes/db/cust_trans_db.inc
+M	sales/includes/db/custalloc_db.inc
+
+commit 09c25f024a3ada8d777e49b498342f45b1847837
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 9 06:01:18 2021 +0700
+
+    No alloc icon for journal entries in customer allocation inquiry. Fixed.
+
+M	sales/customer_payments.php
+M	sales/includes/db/cust_trans_db.inc
+M	sales/inquiry/customer_allocation_inquiry.php
+M	sales/inquiry/customer_inquiry.php
+
+commit 71124495055c5120c1b55cd0eed66ec2215b4578
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 8 22:44:40 2021 +0700
+
+    Error calculating customer aging regarding journal entries. Fixed.
+
+M	sales/includes/db/customers_db.inc
+
+commit c3b6bebacc79af477c4ea69d63fa927f85ed6a99
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 8 14:31:24 2021 +0700
+
+    Customer Statements show wrong balances for Journal Entries. Fixed.
+
+M	reporting/rep108.php
+
+commit 6796c7380bd2a52bed46bc69d7eb02f990e0ed8d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 8 10:59:15 2021 +0700
+
+    Rerun of last commit.
+
+M	sales/includes/db/cust_trans_db.inc
+M	sales/includes/db/custalloc_db.inc
+M	sales/inquiry/customer_inquiry.php
+
+commit dc08a73f8fab73d4fdcf564548cc4176793952e9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 8 05:55:15 2021 +0700
+
+    Customers with 0 left to allocate shown on Customer Allocations when using Journal Entry for paying. Fixed.
+
+M	sales/includes/db/custalloc_db.inc
+
+commit 841952d98a82a501a9cb0093b663d11785ee63ce
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Nov 4 09:02:38 2021 +0700
+
+    Argument cannot be passed by reference in rep301. Fixed.
+
+M	reporting/rep301.php
+
+commit 874cb7a577b1140fa9bd40eca213d5e5d983be5d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Nov 3 08:44:09 2021 +0700
+
+    Items/Fixed Assets: Fixed item image adding/update.
+
+M	inventory/manage/items.php
+
+commit d5952cdb3832479cdf8f845acd3a13eb50126dd2
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 2 23:10:48 2021 +0700
+
+    code cleanup after last commit.
+
+M	install/index.php
+
+commit 18420984e19790773d311035fa41d18f02f2ebd7
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Nov 2 23:07:35 2021 +0700
+
+    Installer: Fixed errors handling, fixed errors on db passwords containg special characters or longer than 20 chars. Allowed passwords up to 32 chars long.
+
+M	includes/ui/ui_input.inc
+M	install/index.php
+M	install/isession.inc
+
+commit dfe997f0f5de6eb43a556b38f673d81fa5079a55
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 1 19:48:51 2021 +0700
+
+    no rep109 title found in print profile. Fixed.
+
+M	reporting/rep109.php
+
+commit 9b156038e0033fc587c1842df3b72e84bb8c5cb6
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Nov 1 07:03:47 2021 +0700
+
+    Curly braces {} in arrays replaced
+
+M	reporting/includes/Workbook.php
+
+commit 02f6b978f6ea8120ba5007f5dbcf594ab5db8dd9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Oct 30 20:21:23 2021 +0700
+
+    Added item description for item search box suggestions
+
+M	includes/ui/ui_lists.inc
+
+commit 74ed048586d0a3ed98ac385884767b9e5845d929
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Oct 17 00:23:29 2021 +0700
+
+    Bill of Materials entry is not responding. Fixed.
+
+M	manufacturing/manage/bom_edit.php
+
+commit 19d19c74256d57faf78828cee02f02895eb799c2
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Oct 15 20:49:29 2021 +0700
+
+    A non well formed numeric value encountered in sales_credit_ui.inc. Fixed
+
+M	sales/includes/ui/sales_credit_ui.inc
+
+commit b7f74fc65a0f141b0320b44a4df558e4f680dc68
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Oct 12 14:13:38 2021 +0700
+
+    hook_db_prewrite is not used inside journal entry. Added.
+
+M	gl/includes/db/gl_journal.inc
+
+commit f3a116d82cb750238001e50eebf07144264b1750
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Oct 9 08:31:21 2021 +0700
+
+    Add unique key for table comments
+
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt132-new.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 9770c4cc6e8b69b716d0331e90b478321a43285e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Sep 25 20:49:19 2021 +0700
+
+    qty_done is not updated correctly when partial invoice is voided. Fixed
+
+M	sales/includes/db/sales_invoice_db.inc
+
+commit d207e7c02639cf3dbcd8ff8b3e1d404466ac1bc2
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Sep 13 07:53:16 2021 +0700
+
+    Code cleanup
+
+M	sales/customer_payments.php
+
+commit 58f5d0a6ffe6596e3b27fba0b63ead1412e36627
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Sep 9 00:28:21 2021 +0700
+
+    Changed default utf8 font to dejavusans.
+
+A	reporting/fonts/ae_tholoth.ctg.z
+A	reporting/fonts/ae_tholoth.php
+A	reporting/fonts/ae_tholoth.z
+D	reporting/fonts/dejavu.ctg.z
+D	reporting/fonts/dejavu.php
+D	reporting/fonts/dejavu.z
+A	reporting/fonts/dejavusans.ctg.z
+A	reporting/fonts/dejavusans.php
+A	reporting/fonts/dejavusans.z
+A	reporting/fonts/dejavusansb.ctg.z
+A	reporting/fonts/dejavusansb.php
+A	reporting/fonts/dejavusansb.z
+A	reporting/fonts/dejavusansbi.ctg.z
+A	reporting/fonts/dejavusansbi.php
+A	reporting/fonts/dejavusansbi.z
+A	reporting/fonts/dejavusansi.ctg.z
+A	reporting/fonts/dejavusansi.php
+A	reporting/fonts/dejavusansi.z
+M	reporting/includes/class.pdf.inc
+
+commit 3346d2d87b4783862ec97c469bab8628ef2b6d2e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Sep 7 23:22:17 2021 +0700
+
+    Adapting with new layout of exchange rate option 2
+
+M	gl/includes/db/gl_db_rates.inc
+
+commit 9bb46e6848c3ddc12c1c71763a99467d41295a8f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Aug 30 23:33:41 2021 +0700
+
+    Sales entry redesigned.
+
+M	sales/includes/ui/sales_order_ui.inc
+M	sales/sales_order_entry.php
+M	themes/default/default.css
+
+commit 58bd5fbffef237677509cdbb9bf352f9d6f6a715
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Aug 28 22:11:51 2021 +0700
+
+    Moved purchasing item control row to the top
+
+M	purchasing/includes/ui/po_ui.inc
+
+commit de8c53ef8a58f8fc84b0944e0c85dc37b6345ffd
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Aug 22 17:51:37 2021 +0700
+
+    missed text align for right to left languages, added.
+
+M	themes/default/default.css
+
+commit 5162779a8d1ce4affc6991860d31cb81da52cfab
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Aug 20 23:25:19 2021 +0700
+
+    Unable to void a sales invoice. Fixed.
+
+M	sales/includes/db/sales_invoice_db.inc
+M	sales/includes/db/sales_order_db.inc
+
+commit 0916ed1d05e1f3975ecc7d726a5d137e92f6106f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Aug 20 23:07:52 2021 +0700
+
+    Unable to void Work Order. Fixed.
+
+M	manufacturing/includes/db/work_order_produce_items_db.inc
+
+commit 17b53ee8284e3ff8a424895b4e6a686ff5af32f8
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Aug 11 17:53:14 2021 +0700
+
+    New line bug in inventory location transfer. Fixed.
+
+M	inventory/transfers.php
+
+commit 9cadb6794a3646351e11516f64c759d5c21d51dc
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Aug 10 22:30:05 2021 +0700
+
+    Credit This Option for Supplier Invoice Doesn't Show Quantity Invoiced
+
+M	purchasing/includes/db/invoice_db.inc
+
+commit ddda177dcdb5ca7f0da410999f6d7022a318df20
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Aug 9 20:55:30 2021 +0700
+
+    Customer Credit Invoice: fixed invalid processing of invoice payments (triggering blank page on php8 too)
+
+M	reporting/includes/pdf_report.inc
+M	sales/includes/sales_db.inc
+
+commit 383a14ce231fc8f3797dce9aa45b32b7cbe2110c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Aug 8 09:44:18 2021 +0700
+
+    function money_format is deprecated in above PHP 7.4. Replaced with price_format.
+
+M	includes/current_user.inc
+M	reporting/includes/pdf_report.inc
+
+commit def47394aee8113aa105220e8a88a93cba206d07
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Aug 7 21:00:19 2021 +0700
+
+    Direct supplier payment bug introduced by Dimension wise balance sheet items - AR/AP implemented
+
+M	purchasing/includes/purchasing_db.inc
+
+commit fc809cf53f64a03cb77ef1317bd16c0aa5d4d561
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jul 15 07:40:26 2021 +0700
+
+    Default theme improvement in fixed asset entry
+
+M	themes/default/local_style/items.css
+
+commit 85859f9dc55f6e6f52f6b348f3e2766ed518bb2f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jul 15 07:22:28 2021 +0700
+
+    Duplicate Class ID found when updating fixed asset class. Fixed.
+
+M	fixed_assets/fixed_asset_classes.php
+
+commit 9206753c9f93827113991c380957024db88a1d0c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jul 13 23:20:17 2021 +0700
+
+    php7.4 error trying to access array offset on value of type bool. Continue
+
+M	fixed_assets/includes/fixed_assets_db.inc
+M	reporting/rep451.php
+
+commit 10020f721d8c9b40141d59cc061f2c340d2ac0cf
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jul 13 09:17:17 2021 +0700
+
+    Added input validation for fixed asset class entry
+
+M	fixed_assets/fixed_asset_classes.php
+M	fixed_assets/includes/fa_classes_db.inc
+
+commit 94d8574c373d8dfb0324f8cdfff8684edca1eb20
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jul 12 21:57:15 2021 +0700
+
+    php7.4 error trying to access array offset on value of type bool. Continue
+
+M	includes/db/inventory_db.inc
+
+commit 761ffb11d6b781e0a6e62b06bb174b57a3464e91
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jul 12 18:30:54 2021 +0700
+
+    php7.4 error trying to access array offset on value of type bool. Fixed.
+
+M	reporting/rep451.php
+
+commit 9c977d82f05e649eb6c29c2060114434bc5d58fc
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jul 12 08:05:53 2021 +0700
+
+    php 7.4 error Trying to access array offset on value of type bool. Fixed.
+
+M	admin/db/tags_db.inc
+
+commit d830d949ee1e2640e6ec77ad4d902f6678e30f61
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jul 10 22:00:32 2021 +0700
+
+    code cleanup
+
+M	sales/includes/db/payment_db.inc
+
+commit 1608009affea840485afd57f71dd333dab55dbbd
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jul 9 08:46:32 2021 +0700
+
+    php8 error Deprecated: Required parameter follows optional parameter. Fixed
+
+M	gl/inquiry/profit_loss.php
+
+commit be1dde5d462995a19f19fdd9c76585fe55686183
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jul 8 22:50:49 2021 +0700
+
+    error undefined constant 'CL_NONE', fixed.
+
+M	includes/types.inc
+
+commit b0aaaccc811a3b1d773572c5b6f6f342e93fa720
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jul 7 22:11:34 2021 +0700
+
+    error: Trying to access array offset on value of type bool. Fixed
+
+M	gl/bank_account_reconcile.php
+
+commit bf16ac096be671db254b7e908f618c5d1138c192
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jul 6 21:01:07 2021 +0700
+
+    php8 fixes. Deprecated: Required parameter follows optional parameter
+
+M	reporting/rep307.php
+M	reporting/rep308.php
+
+commit ba0c0f3fd84ec8de2e8c3f165684404400b12b0e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jul 5 14:31:42 2021 +0700
+
+    Wrong parameter passed to qty_cell. Fixed
+
+M	inventory/manage/sales_kits.php
+
+commit e850b33f73b4df60aebbd687bf09bf39e4b99943
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jul 4 14:44:40 2021 +0700
+
+    Select item not working in purchase order and sales order entry. Fixed.
+
+M	includes/ui/ui_view.inc
+
+commit 41ebb91b3045a2aad081b9e4004f58967d3b43a7
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jul 3 10:13:07 2021 +0700
+
+    Remove functions with the same task
+
+M	sales/customer_credit_invoice.php
+M	sales/includes/ui/sales_credit_ui.inc
+
+commit 3772c2836756127b8ad02f44831f326a17a7e18c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jul 1 22:10:05 2021 +0700
+
+    right to left languages display, continue.
+
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 3cb21f289d7dd7c21e8e98ee9d0a4342602ff36d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 30 17:46:15 2021 +0700
+
+    right to left languages showing, continue
+
+M	themes/dropdown/default.css
+
+commit 25a40231a0a8ec9eaf7ff0a3216332c8e7cf4246
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 29 20:55:17 2021 +0700
+
+    right to left languages display improvement
+
+M	themes/canvas/default.css
+M	themes/default/default.css
+
+commit ee0668db810dc63abd45848b3edc3b88597f20a4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 29 15:03:41 2021 +0700
+
+    datepicker showing messed in right to left languages, fixed.
+
+M	themes/default/default.css
+
+commit 282bcce6c0eeccced2c692a43d682385f6b0bf1c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 27 07:34:05 2021 +0700
+
+    user qty decimals handled incorrectly by code that calls get_item_edit_info. Fixed
+
+M	includes/db/inventory_db.inc
+
+commit b02441ef32f491ea7fc15390dc2fce5c867f62a8
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 26 23:01:21 2021 +0700
+
+    Auto select item on Item Movement Iquiry page
+
+M	inventory/inquiry/stock_movements.php
+
+commit 8cadbab2535b09fbd23177772981f5a49baf5257
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 26 17:21:54 2021 +0700
+
+    auto select item on inventory entries
+
+M	includes/ui/ui_lists.inc
+M	inventory/includes/item_adjustments_ui.inc
+M	inventory/inquiry/stock_movements.php
+M	inventory/inquiry/stock_status.php
+
+commit 52c2870071ce192b424242b2d3f2160cf1af2ddd
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 26 08:48:43 2021 +0700
+
+    commit dadd11a, rolled back.
+
+M	includes/page/header.inc
+
+commit 323f78379db5b0cf057e6efe3b9ff34666c5640c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 25 23:54:00 2021 +0700
+
+    added css for stock status page
+
+A	themes/default/local_style/stock_status.css
+
+commit eef35f916288ffbbe710b4d2f56f7898f3cefeec
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 25 13:08:59 2021 +0700
+
+    Auto select item on Manage Items entry
+
+M	inventory/manage/items.php
+
+commit 11084f17c300d33c3e2750663ec950952e3d6cbf
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 25 09:19:56 2021 +0700
+
+    Missed static js file for searching closest match, added.
+
+A	libraries/string-similarity.min.js
+
+commit 9c5ce6d7343ba0db70ea75cdd73daf8f902d04f6
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 25 08:28:42 2021 +0700
+
+    Auto select closest match result in search box
+
+M	includes/main.inc
+M	libraries/inserts.js
+
+commit dadd11a7b6c4f434c28ca244c285c24d50868d4a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 24 09:46:53 2021 +0700
+
+    Duplicate script tags, fixed.
+
+M	includes/page/header.inc
+
+commit d3cc4b9abc5ede8d041dc8ce0e78c203ac930821
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 23 14:46:41 2021 +0700
+
+    Select item when search box value is selected
+
+M	libraries/inserts.js
+
+commit 7693aae81b100fdbcbe199deb7ac7df02e6838ca
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 23 07:26:45 2021 +0700
+
+    ui improvement, responsive links in default theme
+
+M	themes/default/default.css
+M	themes/default/renderer.php
+
+commit 018b35e3862b08b30a7cfeb2c4c6dd36bfa21966
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 22 14:41:04 2021 +0700
+
+    Changed item control row in sales entry
+
+M	sales/includes/ui/sales_order_ui.inc
+
+commit 2411add5b6dc64ab509bbfe20a32f4423aee6800
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 22 09:18:02 2021 +0700
+
+    added data suggestion for item search box
+
+M	includes/ui/ui_lists.inc
+
+commit 2073ff69730e257e6e1d8046a7ef5e78fa7caa6b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jun 21 20:34:22 2021 +0700
+
+    Removed dummy login info
+
+M	access/login.php
+
+commit 963e2fbd560e37221e98b03bb33067a81ca6e4d0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 19 07:33:25 2021 +0700
+
+    Update language template empty.po
+
+M	lang/new_language_template/LC_MESSAGES/empty.po
+
+commit eba33b994dc6bfb3e45c6a3f1c5df7d4c1a9c671
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 18 23:28:57 2021 +0700
+
+    Removed unused parameters
+
+M	includes/types.inc
+M	sales/customer_payments.php
+M	sales/includes/db/payment_db.inc
+M	sales/includes/db/sales_invoice_db.inc
+
+commit f8d4856068d6be89857f442499401c0e23ecc38b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 17 22:05:06 2021 +0700
+
+    missing passed variable in function get_allocatable_from_supp_transactions, continue.
+
+M	purchasing/includes/db/suppalloc_db.inc
+
+commit caf3da75660116694d05c164c17f98392aee5225
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 17 09:45:01 2021 +0700
+
+    missing passed variable in function get_allocatable_from_supp_transactions
+
+M	purchasing/includes/db/suppalloc_db.inc
+
+commit 9aadd7d7d7680c8d4d9e19aea19273f03152920b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 17 08:37:24 2021 +0700
+
+    PHP8 Warning: Undefined array key. Fixed
+
+M	includes/errors.inc
+M	includes/session.inc
+
+commit 69a153ea23ab543795656c45ab76eded5abf4862
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 22:58:57 2021 +0700
+
+    Missed semicolons from last commit
+
+M	sales/includes/db/custalloc_db.inc
+
+commit bb47e5427cfa5b77c509f009fdde90e2d1675b6a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 21:53:28 2021 +0700
+
+    Removed unused variables and more php8 fixes
+
+M	gl/includes/db/gl_db_banking.inc
+M	includes/current_user.inc
+M	includes/db/class.data_set.inc
+M	includes/ui/ui_lists.inc
+M	includes/ui/ui_view.inc
+M	inventory/includes/db/items_db.inc
+M	purchasing/includes/db/suppalloc_db.inc
+M	sales/includes/db/custalloc_db.inc
+
+commit dfa0c236e0865e7583e34e70ec0588b05c85396f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 16:01:00 2021 +0700
+
+    Inventory valuation report does not discard zero quantity items for items with decimal quantity units. Fixed.
+
+M	reporting/rep301.php
+
+commit 4c323919877214c499168f674168c50d1e3c5bf8
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 13:33:44 2021 +0700
+
+    Release 0.5
+
+M	CHANGELOG.txt
+M	version.php
+
+commit de9e81325ec436cf63ead9836efd3e60d380e636
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 13:05:03 2021 +0700
+
+    Adapting to new google exchange rates api
+
+M	gl/includes/db/gl_db_rates.inc
+
+commit e11febf2ab7ad9526e77b7818e4f24449d93f011
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 16 09:05:23 2021 +0700
+
+    Removed unused variable in print_document_link function
+
+M	admin/view_print_transaction.php
+M	dimensions/inquiry/search_dimensions.php
+M	includes/ui/ui_controls.inc
+M	manufacturing/search_work_orders.php
+M	purchasing/inquiry/po_search.php
+M	purchasing/inquiry/po_search_completed.php
+M	purchasing/inquiry/supplier_inquiry.php
+M	purchasing/po_entry_items.php
+M	reporting/includes/reporting.inc
+M	sales/credit_note_entry.php
+M	sales/customer_credit_invoice.php
+M	sales/customer_delivery.php
+M	sales/customer_invoice.php
+M	sales/inquiry/customer_inquiry.php
+M	sales/inquiry/sales_deliveries_view.php
+M	sales/inquiry/sales_orders_view.php
+
+commit fe1a0d99ffa59433963034d97d3325c23a81cdac
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 15 19:56:57 2021 +0700
+
+    Reporting main page redesigned, continue.
+
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 0688fb93f9c513ef56e3e4993844a979013ef083
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 15 15:43:15 2021 +0700
+
+    Reporting main page redesigned, continue.
+
+M	libraries/reports.js
+M	reporting/includes/reports_classes.inc
+
+commit 07b2f1b3314c72217f05b9bbf9eaf73eb78d8877
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jun 14 09:12:49 2021 +0700
+
+    Reporting main page redesigned.
+
+M	reporting/includes/reports_classes.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/default/local_style/reports_main.css
+M	themes/dropdown/default.css
+
+commit 6ac0575da773d4c29d245b325e3c6c2eb22bc768
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 13 22:00:08 2021 +0700
+
+    rearrange report inputs spacing
+
+M	themes/default/local_style/reports_main.css
+
+commit cbd77718f07f4d88c1383c129390a6ee578da295
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 13 15:32:47 2021 +0700
+
+    responsive in reports main page
+
+A	themes/default/local_style/reports_main.css
+
+commit 125909c447d3226c9c96b1ed05560dc4d610578f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 13 10:44:30 2021 +0700
+
+    Responsive in backup entry
+
+M	themes/default/local_style/backups.css
+
+commit 23b1ac1e4ce8fbfc59a2c8515656a76e36ef6fff
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 13 07:57:20 2021 +0700
+
+    Remove dummy variable, continue.
+
+M	inventory/cost_update.php
+M	inventory/purchasing_data.php
+M	inventory/reorder_level.php
+
+commit 3ca305e93d5e5d1a54cd5a217b393d19a5a39eb4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 21:49:23 2021 +0700
+
+    Remove dummy variable, continue.
+
+M	access/login.php
+M	access/password_reset.php
+M	admin/backups.php
+
+commit c0018101e6ca0b950e77db3331fab2af33721807
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 19:57:05 2021 +0700
+
+    removing dummy variable, continue.
+
+M	gl/accruals.php
+M	inventory/prices.php
+M	sales/inquiry/sales_deliveries_view.php
+
+commit d673513e826ae117dd47e13d50782de68ebdd1d7
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 16:52:36 2021 +0700
+
+    Continue of removing dummy variable.
+
+M	purchasing/inquiry/suppliers_list.php
+M	sales/inquiry/customer_branches_list.php
+M	sales/inquiry/customers_list.php
+
+commit e657d608f8b6c67344e0e57ab14eba98aa1efae2
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 15:06:14 2021 +0700
+
+    Removed dummy variable, continue.
+
+M	manufacturing/inquiry/bom_cost_inquiry.php
+M	manufacturing/inquiry/where_used_inquiry.php
+M	manufacturing/manage/bom_edit.php
+M	manufacturing/search_work_orders.php
+
+commit fe3a414ba054ed2a10b65994be301eae3ea30509
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 14:11:18 2021 +0700
+
+    Remove dummy variable, continue.
+
+M	admin/view_print_transaction.php
+M	gl/inquiry/accounts_list.php
+M	inventory/inquiry/stock_list.php
+
+commit 390ddd02ab6302842f40ec7713e3d87598b8daeb
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 13:17:43 2021 +0700
+
+    remove dummy variable, continue.
+
+M	dimensions/inquiry/search_dimensions.php
+
+commit 556566a4c143fcb6aed5e022c0f61e911fb85b77
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 10:16:57 2021 +0700
+
+    removed dummy variable in start_form function
+
+M	includes/ui/ui_controls.inc
+
+commit f4bfb901c2eb2b928260006b10fe75de73ed6036
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 12 00:41:30 2021 +0700
+
+    responsive ui in supplier credit notes entry
+
+M	purchasing/supplier_credit.php
+A	themes/default/local_style/supplier_credit.css
+
+commit 39a12e3325a34983719d4b1d1352807f68590882
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 11 22:31:58 2021 +0700
+
+    changed table style in purchasing invoice ui
+
+M	purchasing/includes/ui/invoice_ui.inc
+
+commit d35622134f29afb2d523b370d18369635739c128
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 11 12:54:56 2021 +0700
+
+    add non breaking space in supplier credit entry
+
+M	purchasing/includes/ui/invoice_ui.inc
+
+commit c9cdfc32195bb21052515c66b778969ea8d5c51d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 11 09:36:36 2021 +0700
+
+    responsive ui in supplier invoice entry
+
+M	themes/default/local_style/customer_allocate.css
+M	themes/default/local_style/local_entry.css
+A	themes/default/local_style/supplier_invoice.css
+
+commit 89311034bbe6735c0b10d19ada96128a99315a37
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 11 06:46:12 2021 +0700
+
+    ui improvement continue, customer allocation entry.
+
+A	themes/default/local_style/customer_allocate.css
+
+commit 47f984e7c2a336557a565acaeb28410c7cda99dd
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 10 22:00:51 2021 +0700
+
+    responsive ui in journal entry
+
+A	themes/default/local_style/gl_journal.css
+
+commit bbbe4f9dcbfb99dcc666f23faad6e5e46099e6eb
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 10 15:16:10 2021 +0700
+
+    ui responsive in bank transfer entry
+
+M	themes/default/local_style/bank_transfer.css
+
+commit 5ec659433e65180c4987f03fe13013bbcb6f6a78
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 10 10:02:35 2021 +0700
+
+    Changed table style in gl journal entry
+
+M	gl/gl_journal.php
+
+commit 97ad400c195f015141693be434e760a4ba5c72c5
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 10 06:41:12 2021 +0700
+
+    responsive ui in gl bank entries
+
+A	themes/default/local_style/gl_bank.css
+
+commit f70d55a36fb52ade89c299b1e59764a361f791a4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 9 22:27:18 2021 +0700
+
+    responsive ui in inventory adjusment entry
+
+A	themes/default/local_style/adjustments.css
+
+commit a166fbf374331e804100565740130d04ab687047
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 9 20:38:38 2021 +0700
+
+    responsive ui in location transfer entry
+
+A	themes/default/local_style/transfers.css
+
+commit bde2a95ea0ee9d6c0bb8effe6ffff5108d268487
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 9 13:10:19 2021 +0700
+
+    responsive ui in supplier payment entry
+
+M	themes/default/local_style/credit_note_entry.css
+M	themes/default/local_style/customer_payments.css
+A	themes/default/local_style/supplier_payment.css
+
+commit a5052ce1684218b59e9d0992930e6901b62b77fa
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed Jun 9 08:14:48 2021 +0700
+
+    responsive ui in credit note entry
+
+A	themes/default/local_style/credit_note_entry.css
+M	themes/default/local_style/po_entry_items.css
+M	themes/default/local_style/sales_order_entry.css
+
+commit 48dd45b561749a35cc995e0c0eea0f7b7b89f845
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 8 22:52:21 2021 +0700
+
+    Changed button type in credit note entry
+
+M	sales/credit_note_entry.php
+
+commit b0e8bc3e5f8cd408fc9f5d1f12a2f05e8d314a30
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 8 20:29:25 2021 +0700
+
+    Responsive ui in customer payment entry
+
+A	themes/default/local_style/customer_payments.css
+
+commit 5758fda7a381c7ca86fc6e660bd293a004353143
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jun 8 09:19:32 2021 +0700
+
+    Responsive UI continue, purchasing entries.
+
+A	themes/default/local_style/local_entry.css
+A	themes/default/local_style/po_entry_items.css
+M	themes/default/local_style/sales_order_entry.css
+
+commit 201d77fc76a7313233eee186a6d2b02957490358
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jun 7 20:29:48 2021 +0700
+
+    UI improvement, responsive in sales entries
+
+M	themes/default/local_style/sales_order_entry.css
+
+commit d5777e3585d5bb1eaaac7c940e4ed5bab8d42dbd
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon Jun 7 16:07:32 2021 +0700
+
+    Added class table_section for outer tables
+
+M	includes/ui/ui_controls.inc
+
+commit ba2f9c0d20f89bded4aaa8ff1247c367eeabc8a1
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 6 12:35:24 2021 +0700
+
+    UI improvement, contact categories page
+
+M	themes/default/local_style/crm_categories.css
+
+commit 372d8f3b11f1d4d4c573262a912bb5a1e29187ad
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jun 6 08:37:27 2021 +0700
+
+    UI improvement in access setup
+
+A	themes/default/local_style/security_roles.css
+
+commit ce57aa6ceda294c53ffe72dd5f80f631af0cbe0d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 22:40:03 2021 +0700
+
+    UI improvement in themes canvas dropdown
+
+M	themes/canvas/default.css
+M	themes/dropdown/default.css
+
+commit 499388ac79f1f5f2b8e2932670324d90d81d5e15
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 19:48:26 2021 +0700
+
+    UI improvement in item entries
+
+M	inventory/reorder_level.php
+M	themes/default/local_style/cost_update.css
+M	themes/default/local_style/items.css
+A	themes/default/local_style/prices.css
+M	themes/default/local_style/purchasing_data.css
+
+commit 9060238447158c4306cecfa922d58d7978046779
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 16:01:54 2021 +0700
+
+    UI improvement in sales kits entry
+
+M	themes/default/local_style/sales_kits.css
+
+commit 54fa913f4772430ccaa9accb203589be51e3953e
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 13:43:53 2021 +0700
+
+    UI improvement in void transaction page
+
+M	admin/void_transaction.php
+A	themes/default/local_style/void_transaction.css
+
+commit 122ef9d3381541a8fa1b14381422d85bb3512ad6
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 10:22:33 2021 +0700
+
+    Theme improvement, responsive in item entry page
+
+M	inventory/cost_update.php
+M	inventory/manage/items.php
+M	inventory/prices.php
+M	inventory/purchasing_data.php
+M	themes/default/local_style/bom_edit.css
+M	themes/default/local_style/items.css
+
+commit fba15fd3ffb9bff14c7a971bde32b9d59fc2b4f4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jun 5 07:24:38 2021 +0700
+
+    Theme improvement, GL setup page responsive
+
+M	themes/default/local_style/gl_setup.css
+
+commit bbbc9c828f10184dae43f1e2dbcdb25fdb9c09c0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 4 22:16:24 2021 +0700
+
+    Responsive table for customer, supplier entries
+
+M	includes/ui/contacts_view.inc
+M	themes/default/default.css
+M	themes/default/local_style/company_preferences.css
+M	themes/default/local_style/customer_branches.css
+M	themes/default/local_style/customers.css
+M	themes/default/local_style/display_prefs.css
+A	themes/default/local_style/local_pref.css
+M	themes/default/local_style/suppliers.css
+
+commit 83b22ad8d7033a6849e7b1b9d297e8edc82e7c78
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jun 4 18:44:59 2021 +0700
+
+    Default theme improvement for preferences page
+
+M	themes/default/local_style/display_prefs.css
+
+commit 497ffcc01352486ba545f0cc9fcc0c5c6acd1635
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu Jun 3 21:43:47 2021 +0700
+
+    Code cleanup continue.
+
+M	includes/ui/ui_msgs.inc
+
+commit 2c0246eb49e8456c4b0808ef9b742fb175078a7f
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon May 31 01:07:58 2021 +0700
+
+    Code cleanup
+
+M	includes/ui/ui_msgs.inc
+
+commit fd3ef4580b305fd3b06281a69b74f5e36bd057e5
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 29 15:54:38 2021 +0700
+
+    Code cleanup in purchase module
+
+M	purchasing/includes/db/invoice_items_db.inc
+M	purchasing/includes/db/po_db.inc
+M	purchasing/includes/db/supp_payment_db.inc
+M	tmp/index.php
+
+commit 8759e37129cb66466244c4940c0f013aadafdf84
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 29 08:46:24 2021 +0700
+
+    Added missing db error messages
+
+M	purchasing/includes/db/grn_db.inc
+M	purchasing/includes/db/invoice_db.inc
+
+commit 363ed956d080625fa50d74ec41ca1a7f123e961c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri May 28 10:38:19 2021 +0700
+
+    Code cleanup in gl module, continue.
+
+M	gl/includes/db/gl_db_currencies.inc
+
+commit 100ff21b4bd00499d1d48e1dfa45f0388664bf6d
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu May 27 17:21:18 2021 +0700
+
+    Code cleanup in gl module, continue.
+
+M	gl/includes/db/gl_db_banking.inc
+
+commit 54d46ef4d402e7e33908c805191c99604e636320
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu May 27 14:17:24 2021 +0700
+
+    Code cleanup in gl module.
+
+M	gl/includes/db/gl_db_bank_trans.inc
+
+commit 6ba1da9bfb23483d9ce0dfae83adf03bd06983d9
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu May 27 10:28:18 2021 +0700
+
+    Code cleanup
+
+M	gl/includes/db/gl_db_bank_accounts.inc
+
+commit 76b22a940713b7206900917fcaf88e131385aca4
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Thu May 27 07:38:24 2021 +0700
+
+    Added missing db error catcher.
+
+M	gl/includes/db/gl_db_accounts.inc
+
+commit 674c7817fe5551409fda1251ba1fc92da31715de
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed May 26 22:10:38 2021 +0700
+
+    php7.4 error Trying to access array offset on value of type null in gl account types. Fixed.
+
+M	gl/includes/db/gl_db_account_types.inc
+
+commit 08cbfd4ba5b915f7a60ecdc908819871d5445f77
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed May 26 09:52:45 2021 +0700
+
+    Quote valid days in quotation entry picks the Delivery required days, fixed.
+
+M	sales/allocations/index.php
+M	sales/includes/db/index.php
+M	sales/includes/index.php
+A	sales/includes/ui/index.php
+M	sales/includes/ui/sales_order_ui.inc
+M	sales/inquiry/index.php
+M	sales/manage/index.php
+M	sales/view/index.php
+
+commit 3baafc632388e6449123fcca213ae4d03e1b5822
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Wed May 26 07:15:24 2021 +0700
+
+    Added missing redirect index files
+
+A	fixed_assets/includes/index.php
+A	fixed_assets/index.php
+A	fixed_assets/inquiry/index.php
+M	lang/index.php
+M	modules/_cache/index.php
+M	modules/index.php
+M	tmp/index.php
+
+commit ccd478d9120749210bc536064f0bd092c5fa3e23
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue May 25 21:26:53 2021 +0700
+
+    Wrong variable names from last commit, fixed.
+
+M	dimensions/includes/dimensions_db.inc
+
+commit ce69905c1aa1ac01b3a25965afe7c3d4080f21b8
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue May 25 21:15:07 2021 +0700
+
+    Code cleanup
+
+M	dimensions/includes/dimensions_db.inc
+
+commit b9ce336201c186b409efa910ae3d558dfc494977
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue May 25 16:50:05 2021 +0700
+
+    Sales entry ui improvement
+
+A	themes/default/local_style/sales_order_entry.css
+
+commit 1702b26a8e8d411702d912ffc89e3c8bd54cab36
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue May 25 16:49:34 2021 +0700
+
+    Sales entry ui improvement
+
+D	themes/default/local_style/sales_order_entry.css
+
+commit 5ab649162f1aa9dffd044bd7f3f9292d36f1074c
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Tue May 25 07:39:58 2021 +0700
+
+    Bad line break in gl quick entry, fixed.
+
+M	themes/default/local_style/gl_quick_entries.css
+
+commit 48fd7e5d96b4f16edc180e0a9093f5e8d1bee94a
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon May 24 22:59:50 2021 +0700
+
+    php7.4 error Trying to access array offset on value of type null. Fixed.
+
+M	includes/ui/items_cart.inc
+
+commit 8a1a393b8817b37c70e8e34225210bba59e89c72
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon May 24 13:48:09 2021 +0700
+
+    Camel upper case class names and code cleanup.
+
+M	Quanlyviet.php
+M	applications/application.php
+M	applications/customers.php
+M	applications/dimensions.php
+M	applications/fixed_assets.php
+M	applications/generalledger.php
+M	applications/inventory.php
+M	applications/manufacturing.php
+M	applications/setup.php
+M	applications/suppliers.php
+M	includes/session.inc
+
+commit bb6572ae43e7c7201c30afbd992e9dbe5153b041
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Mon May 24 08:03:40 2021 +0700
+
+    Code cleanup, continue.
+
+M	admin/db/transactions_db.inc
+M	admin/db/users_db.inc
+
+commit d3b7d1b7ddbaf79efa5960059e268796020917b0
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun May 23 22:43:57 2021 +0700
+
+    Code cleanup
+
+M	admin/db/tags_db.inc
+
+commit 59efed473483b0a7b8c43540078c5c4758bf4a33
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun May 23 19:37:55 2021 +0700
+
+    Minor UI improvenemt and code cleanup
+
+M	admin/attachments.php
+
+commit 682601ebb3114c5a54f21ffb7e1ca5d8d38af8f5
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sun May 23 15:18:10 2021 +0700
+
+    Code cleanup
+
+M	admin/db/attachments_db.inc
+
+commit f3833c0a9625b0e313a7ffb44ea41659c0344993
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 22 19:34:46 2021 +0700
+
+    Code cleanup
+
+M	inventory/includes/db/items_transfer_db.inc
+
+commit 08f1898233faaf99250188fafcf7af038b1df98b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 22 13:32:44 2021 +0700
+
+    Fixed error undefined variable cur_app in dashboard_classes.inc. Continue.
+
+M	dashboard/includes/dashboard_classes.inc
+
+commit 56a9dad22492353b9a6b450ac0d416ada9725c83
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 22 10:05:22 2021 +0700
+
+    Error undefined variable cur_app in dashboard_classes.inc. Fixed.
+
+M	dashboard/includes/dashboard_classes.inc
+
+commit 68dcaa408ccff66db4a1bc98fb82039c9a970a8b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Sat May 22 07:22:10 2021 +0700
+
+    Core themes canvas, dropdown improvement
+
+M	themes/canvas/default.css
+M	themes/dropdown/default.css
+
+commit ce6c671515dad138de5cd2180e5d439608622055
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri May 21 22:04:51 2021 +0700
+
+    Dropdown theme improvement
+
+M	themes/dropdown/default.css
+
+commit 6baefd24805febc281174d1f779517a44095fc3b
+Author: notrinos <trananhphuong83@gmail.com>
+Date:   Fri May 21 20:23:59 2021 +0700
+
+    Calendar icon size is too small in core themes. Fixed.
+
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 51b11c25a542db1fbaab893c7b5028fd6b5dce7b
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri May 21 14:37:30 2021 +0700
+
+    Sửa mẫu báo cáo lỗi, tiếp.
+
+M	.github/ISSUE_TEMPLATE/bug_report.md
+
+commit 512cf228440db0415b709d673a20b98cc6e0c54b
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri May 21 14:34:23 2021 +0700
+
+    Update mẫu báo cáo lỗi, tiếp.
+
+M	.github/ISSUE_TEMPLATE/bug_report.md
+
+commit 1e566e65b821f694da39b14bbe0c39f5e0f51a25
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri May 21 14:17:48 2021 +0700
+
+    Update mẫu báo cáo lỗi
+
+M	.github/ISSUE_TEMPLATE/bug_report.md
+
+commit 6f5e41f6ecd92a0d871cebbe21d6eabafed5f6d7
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri May 21 14:03:53 2021 +0700
+
+    Moved github default community health files to .github folder
+
+R100	docs/CODE_OF_CONDUCT.md	.github/CODE_OF_CONDUCT.md
+R100	docs/CONTRIBUTING.md	.github/CONTRIBUTING.md
+A	.github/ISSUE_TEMPLATE/bug_report.md
+
+commit 99c0da018e6487f2cab0e8b12e43b40a0b99c7eb
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri May 21 07:14:10 2021 +0700
+
+    Calendar icon size is too small in canvas theme. Fixed.
+
+M	themes/canvas/default.css
+
+commit d4cc371a39f46d1184bf3c17bd2941a1f9570665
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed May 19 15:36:53 2021 +0700
+
+    Gl Payment view showing wrong header. Fixed.
+
+M	gl/view/gl_payment_view.php
+
+commit f5596a765fa426e6a584ddef92f7f382d1d773b9
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed May 19 07:01:37 2021 +0700
+
+    Error a non-numeric value encountered in supplier invoice. Fixed
+
+M	purchasing/includes/ui/invoice_ui.inc
+
+commit 477c6a95d519a06176015ebb0304ab209bedab85
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue May 18 20:34:21 2021 +0700
+
+    Added debtors_master.debtor_ref to get_customer_trans() results
+
+M	sales/includes/db/cust_trans_db.inc
+
+commit dbd2e97cd4834501a9f2e00ad1c3939cd3b8668f
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue May 18 06:36:17 2021 +0700
+
+    Slightly changed email subject for sales invoice to avoid false marking by spam filters.
+
+M	reporting/rep107.php
+
+commit 90be4d2d5ebc8a5d1dd474313e6aee248a2f070c
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun May 16 08:20:53 2021 +0700
+
+    error replicated marker text in db_pager. Fixed.
+
+M	includes/db_pager.inc
+
+commit a96c66a8ac3ed7cc5d30588172edfcd4a005e681
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Thu May 13 07:01:10 2021 +0700
+
+    Implemented feature that allows db_pager to have multi line markers.
+
+M	includes/db_pager.inc
+M	includes/ui/db_pager_view.inc
+
+commit e24fdb62c2d7567595551ca82a71784656a85b03
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed May 12 23:19:28 2021 +0700
+
+    Rerun Feature Print documents list gets too long
+
+M	reporting/includes/reports_classes.inc
+
+commit 0e702f6fa7df5f92d28303c6929e9f76843fa3cd
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue May 11 22:46:47 2021 +0700
+
+    cải thiện giao diện default, tiếp theo.
+
+M	themes/default/default.css
+
+commit 3e7459605701020de7d3857a1feaa07cb9df6b53
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue May 11 15:28:28 2021 +0700
+
+    Cải thiện giao diên trên thiết bị di động
+
+M	themes/default/default.css
+M	themes/default/renderer.php
+
+commit fe2ea6c968e80b086acece6b9bab73fc89713333
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat May 8 20:02:10 2021 +0700
+
+    Cải thiện nhỏ trên giao diện default
+
+M	themes/default/default.css
+
+commit cf1850e18ec2b2dfed30725e87117c3f93f28ec5
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed May 5 20:49:51 2021 +0700
+
+    Payments & Deposits(Rounding Problem). Fixed.
+
+M	fixed_assets/includes/fixed_assets_db.inc
+M	includes/ui/items_cart.inc
+
+commit b4e08c54c87936f7a0c807f2b03fac6dad488e14
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed May 5 06:33:48 2021 +0700
+
+    Update file ngôn ngữ
+
+M	applications/generalledger.php
+M	applications/inventory.php
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+
+commit a8bd0959d91931c0ecd85e79ff87840eee9a367b
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon May 3 07:57:05 2021 +0700
+
+    balance sheet report sometimes prints lines with zero amounts. Fixed.
+
+M	gl/includes/db/gl_db_trans.inc
+
+commit 5539c2f4fe2973fe7b9824e56c5dbd23e6752495
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat May 1 23:39:29 2021 +0700
+
+    Release 0.4
+
+M	CHANGELOG.txt
+M	version.php
+
+commit ac49c46540c727d1bf27fdb7004ec7a108f94ca8
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat May 1 20:43:25 2021 +0700
+
+    Updated version level compatibility
+
+M	includes/packages.inc
+
+commit a61a8a67bc85489afcd8cb15dedcb25c2cbbb2b5
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Apr 30 08:31:16 2021 +0700
+
+    php7.4 error Trying to access array offset on value of type null. Fixed
+
+M	includes/references.inc
+
+commit 52487ade9cb12e7cc4b6e3040070e5e2c435082c
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 28 16:49:44 2021 +0700
+
+    Sai tên file logo, đã sửa
+
+M	access/login.php
+M	access/password_reset.php
+
+commit 1f5bd196eca9eaf6cae8f535db7a77346b8692af
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 28 16:43:05 2021 +0700
+
+    Cải thiện giao diện trang đăng nhập
+
+M	access/login.php
+M	access/password_reset.php
+M	themes/default/default.css
+M	themes/default/local_style/access.css
+
+commit 319e8622b81701be64dfd2a7f2aa24ffc3239460
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 27 22:58:07 2021 +0700
+
+    default theme small bug fixes
+
+M	themes/default/default.css
+
+commit 44cc51c3e7ab5fc607fb046c962d9c04893afe84
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 27 10:28:59 2021 +0700
+
+    blurred inactive links in default theme
+
+M	themes/default/default.css
+
+commit a0c304fdd3bb06381cea3a9fb10c71b308fd1372
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 26 15:07:34 2021 +0700
+
+    Cải thiện giao diện default
+
+M	themes/default/default.css
+M	themes/default/local_style/display_prefs.css
+M	themes/default/renderer.php
+
+commit c55bc396bcff8ee4140cb5e67671a8ecece8df85
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 26 09:43:20 2021 +0700
+
+    Thêm css cho theme canvas và dropdơn sau khi chỉnh sửa hệ thống icons
+
+M	libraries/dynamic-menu.js
+M	themes/canvas/default.css
+M	themes/dropdown/default.css
+
+commit 2d44ba5922050fe981700989e2276ef774be5ec0
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 25 21:25:26 2021 +0700
+
+    Thiết kế lại giao diện với icons fontawesome
+
+M	includes/types.inc
+M	includes/ui/ui_input.inc
+M	includes/ui/ui_lists.inc
+A	libraries/dynamic-menu.css
+A	libraries/dynamic-menu.js
+M	themes/default/default.css
+M	themes/default/renderer.php
+
+commit faa5f8c8c1f29d369c3e1ab117d36352acde9585
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 24 23:05:21 2021 +0700
+
+    changed menu icons to webfont icons
+
+M	themes/default/default.css
+M	themes/default/renderer.php
+
+commit 4532a9f7ce43364a3235b68a6cfb0bed5e274ac3
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 24 10:09:44 2021 +0700
+
+    Thêm fontawesome vào các files css mặc định
+
+M	includes/main.inc
+M	includes/page/header.inc
+A	libraries/fontawesome/LICENSE.txt
+A	libraries/fontawesome/css/all.min.css
+A	libraries/fontawesome/webfonts/fa-brands-400.woff
+A	libraries/fontawesome/webfonts/fa-regular-400.woff
+A	libraries/fontawesome/webfonts/fa-solid-900.woff
+
+commit c176e432594a7cacd549ebff92c090c3be82474c
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Apr 23 20:21:14 2021 +0700
+
+    dropdown lists: added edit link to the bottom
+
+M	includes/ui/ui_lists.inc
+M	libraries/select.js
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 222c223b4a08bd53e5a852678ea7a9434b03b184
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Apr 23 08:08:39 2021 +0700
+
+    Chỉnh sửa giao diện
+
+M	themes/default/local_style/customers.css
+M	themes/default/local_style/items.css
+M	themes/default/local_style/suppliers.css
+
+commit 14c504b9b472ec1312ce7e57e363d935179c276b
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Thu Apr 22 13:25:57 2021 +0700
+
+    giảm độ rộng thanh cuộn
+
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 451ec46ebbea3020350f5509c95f327e4d7600a0
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 21 22:36:18 2021 +0700
+
+    Cải thiện giao diện trang backup
+
+M	admin/backups.php
+A	themes/default/local_style/backups.css
+
+commit 5c0483d3af27abfbd60bfe63cb5a2f29e5adfd9f
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 20 08:32:06 2021 +0700
+
+    Release 0.3
+
+M	CHANGELOG.txt
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt132-new.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+M	version.php
+
+commit 037a815be72795529682fb62d596a66953b4ab5f
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 19 16:07:00 2021 +0700
+
+    Exclude unnecessary dropdown lists from select2
+
+M	includes/ui/db_pager_view.inc
+M	includes/ui/ui_lists.inc
+M	libraries/select.js
+
+commit bc83ec58157cdcd9a5b791e103784d9a2c530217
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 19 07:12:31 2021 +0700
+
+    Few small ui improvements
+
+M	admin/company_preferences.php
+M	gl/accruals.php
+A	themes/default/local_style/bom_edit.css
+A	themes/default/local_style/exchange_rates.css
+A	themes/default/local_style/fiscalyears.css
+A	themes/default/local_style/fixed_asset_classes.css
+A	themes/default/local_style/payment_terms.css
+
+commit a26bd7097a0227a00e6dc7f350a73ce825f8d859
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 18 21:54:03 2021 +0700
+
+    Theme fixes after moved search button to bottom of dropdown list
+
+M	includes/ui/ui_lists.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/default/local_style/accruals.css
+M	themes/default/local_style/bank_accounts.css
+M	themes/default/local_style/bank_transfer.css
+M	themes/default/local_style/company_preferences.css
+M	themes/default/local_style/cost_update.css
+M	themes/default/local_style/create_coy.css
+M	themes/default/local_style/customer_branches.css
+M	themes/default/local_style/customers.css
+M	themes/default/local_style/dimension_entry.css
+M	themes/default/local_style/display_prefs.css
+M	themes/default/local_style/gl_account_classes.css
+M	themes/default/local_style/gl_account_types.css
+M	themes/default/local_style/gl_accounts.css
+M	themes/default/local_style/gl_quick_entries.css
+M	themes/default/local_style/gl_setup.css
+M	themes/default/local_style/item_categories.css
+M	themes/default/local_style/item_codes.css
+M	themes/default/local_style/item_units.css
+M	themes/default/local_style/items.css
+M	themes/default/local_style/purchasing_data.css
+M	themes/default/local_style/recurrent_invoices.css
+M	themes/default/local_style/sales_kits.css
+M	themes/default/local_style/sales_people.css
+M	themes/default/local_style/sales_points.css
+M	themes/default/local_style/sales_types.css
+M	themes/default/local_style/suppliers.css
+M	themes/default/local_style/tags.css
+M	themes/default/local_style/tax_types.css
+M	themes/default/local_style/users.css
+M	themes/default/local_style/work_order_entry.css
+M	themes/dropdown/default.css
+
+commit 0ed4dffd5841a78af40de54a3f79a60d1399fa37
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 18 19:49:56 2021 +0700
+
+    Moved all search links to bottom of dropdown list
+
+M	includes/ui/ui_lists.inc
+M	libraries/select.js
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 51f61b5b8302b0da55da6b8c8fc61816c4ae045d
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 17 21:23:47 2021 +0700
+
+    Cải thiện giao diện
+
+M	manufacturing/work_order_entry.php
+M	themes/default/local_style/accruals.css
+M	themes/default/local_style/bank_accounts.css
+M	themes/default/local_style/bank_transfer.css
+M	themes/default/local_style/company_preferences.css
+M	themes/default/local_style/cost_update.css
+M	themes/default/local_style/create_coy.css
+M	themes/default/local_style/currencies.css
+M	themes/default/local_style/customer_branches.css
+M	themes/default/local_style/dimension_entry.css
+M	themes/default/local_style/gl_account_classes.css
+M	themes/default/local_style/gl_account_types.css
+M	themes/default/local_style/gl_accounts.css
+M	themes/default/local_style/gl_setup.css
+M	themes/default/local_style/item_categories.css
+M	themes/default/local_style/item_codes.css
+M	themes/default/local_style/items.css
+M	themes/default/local_style/printers.css
+M	themes/default/local_style/purchasing_data.css
+M	themes/default/local_style/recurrent_invoices.css
+M	themes/default/local_style/sales_people.css
+M	themes/default/local_style/sales_points.css
+M	themes/default/local_style/sales_types.css
+M	themes/default/local_style/shipping_companies.css
+M	themes/default/local_style/suppliers.css
+M	themes/default/local_style/tags.css
+M	themes/default/local_style/tax_types.css
+M	themes/default/local_style/users.css
+M	themes/default/local_style/work_centres.css
+M	themes/default/local_style/work_order_entry.css
+
+commit acfd9e2777064a425ff60a38c4c19807d2daeefd
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 17 19:59:47 2021 +0700
+
+    Sai thông tin bản quyền, đã sửa
+
+M	libraries/select.js
+
+commit 88bcfc76354063e8d24d6cdf67efd5557e0ab0a9
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 17 19:56:28 2021 +0700
+
+    Added jquery, select2. Exclude minified js from compressing and few ui improvements
+
+M	includes/main.inc
+M	includes/page/header.inc
+R100	js/JsHttpRequest.js	libraries/JsHttpRequest.js
+R100	js/allocate.js	libraries/allocate.js
+R100	js/behaviour.js	libraries/behaviour.js
+R100	js/budget.js	libraries/budget.js
+R100	js/index.php	libraries/index.php
+R099	js/inserts.js	libraries/inserts.js
+A	libraries/jquery.min.js
+R100	js/login.js	libraries/login.js
+R100	js/payalloc.js	libraries/payalloc.js
+R100	js/reconcile.js	libraries/reconcile.js
+R100	js/reports.js	libraries/reports.js
+A	libraries/select.js
+A	libraries/select2.min.css
+A	libraries/select2.min.js
+R100	js/utils.js	libraries/utils.js
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/default/local_style/customers.css
+M	themes/default/local_style/display_prefs.css
+M	themes/default/local_style/gl_accounts.css
+M	themes/default/local_style/sales_kits.css
+A	themes/default/local_style/sales_order_entry.css
+M	themes/dropdown/default.css
+
+commit b46d005c8a14f00a04b101cb7726ca1b3c5bdfed
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Apr 16 12:48:58 2021 +0700
+
+    Theme improvement
+
+M	themes/default/local_style/display_prefs.css
+
+commit 2b93ab18a82917d6a21ef536c532263cb0f4a77d
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Thu Apr 15 09:05:22 2021 +0700
+
+    Default theme improvement
+
+M	themes/default/default.css
+M	themes/default/local_style/company_preferences.css
+M	themes/default/local_style/sales_kits.css
+
+commit f646f258f62435ad2d14d7ebfb5987c4f7c3b301
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 14 11:41:07 2021 +0700
+
+    Changed docs location
+
+R100	CODE_OF_CONDUCT.md	docs/CODE_OF_CONDUCT.md
+R100	CONTRIBUTING.md	docs/CONTRIBUTING.md
+R100	doc/index.php	docs/index.php
+R100	doc/license.txt	docs/license.txt
+
+commit 6c972265174818c9bb73f0eff4c5c4cbb0b50efd
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 14 11:30:29 2021 +0700
+
+    Fixed error undifined index customer_id in customer_branches_list.php
+
+M	includes/ui/ui_controls.inc
+M	includes/ui/ui_lists.inc
+
+commit 2514f009f62442da9a184668849c3769da190dd5
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Apr 14 08:30:05 2021 +0700
+
+    Added css for access pages
+
+M	access/login.php
+M	access/password_reset.php
+A	themes/default/local_style/access.css
+
+commit 48d9396eae92bc61b99fa405046e358f69bb837d
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 13 22:27:51 2021 +0700
+
+    Cập nhật tài liệu
+
+R100	doc/CODE_OF_CONDUCT.md	CODE_OF_CONDUCT.md
+R100	doc/CONTRIBUTING.md	CONTRIBUTING.md
+
+commit 5ced209420235fbc56e67f8c04402055dd3c22fc
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 13 22:22:35 2021 +0700
+
+    Caaph nhật tài liệu
+
+R100	CODE_OF_CONDUCT.md	doc/CODE_OF_CONDUCT.md
+A	doc/CONTRIBUTING.md
+
+commit 3ea8f98b1e411cbdb1f4a2b74ed295782ce39657
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Tue Apr 13 22:10:56 2021 +0700
+
+    Added CODE_OF_CONDUCT.md
+
+A	CODE_OF_CONDUCT.md
+
+commit eb9be9fd6e29360345c9248efa6c5dfa810adaa5
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 12 23:27:40 2021 +0700
+
+    php7.4 error Trying to access array offset on value of type bool. Fixed
+
+M	includes/ui/contacts_view.inc
+
+commit 29bcb41b227f06770e02a2a962a99580556122ec
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 11 15:22:12 2021 +0700
+
+    Thêm dữ liệu demo, cập nhật files ngôn ngữ
+
+M	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+M	lang/vi_VN/LC_MESSAGES/vi_VN.po
+M	sql/vi_VN-tt132-demo.sql
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt200-demo.sql
+
+commit 2bb9d18c2feccc3e4e5703fa504179d0e903095c
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 11 09:08:34 2021 +0700
+
+    Thêm hệ thống tài khoản theo Thông tư 132
+
+M	includes/ui/ui_lists.inc
+A	sql/vi_VN-tt132-demo.sql
+A	sql/vi_VN-tt132-new.sql
+
+commit 7f1c206a71e4c8834f00b81407a1c578871df1b3
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 11 07:51:42 2021 +0700
+
+    Thêm tài khoản mặc định: Doanh thu chưa thực hiện
+
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 3a075a71b84c4f0c2f371551419ccd56c4608015
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 10 20:02:30 2021 +0700
+
+    Thêm dữ liệu demo cho hệ thống tài khoản theo Thông tư 133
+
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 8db1eb68c297e19c903caa6d146cc97cd07228fb
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 10 15:10:00 2021 +0700
+
+    Nhầm tài khoản mặc định cho nhóm hàng, đã sửa.
+
+M	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+
+commit c96eada13a1cae5c1cb13cd3484fbc3c09eac9a8
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 10 14:54:07 2021 +0700
+
+    Cập nhật dữ liệu demo
+
+M	includes/ui/ui_lists.inc
+A	sql/vi_VN-tt133-demo.sql
+M	sql/vi_VN-tt133-new.sql
+A	sql/vi_VN-tt200-demo.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 7b07e6a0b6f93fdeb63d84fa94ed57eab8ca0926
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 10 10:13:05 2021 +0700
+
+    Update dummy data & theme improvement
+
+A	company/0/images/101.jpg
+M	company/0/images/102.jpg
+M	company/0/images/103.jpg
+D	company/0/images/104.jpg
+D	company/0/images/logo_frontaccounting.jpg
+A	company/0/images/quanlyviet.jpg
+A	themes/default/local_style/cost_update.css
+
+commit 3c2c788067c97361f55541bfff4fae9c9a2ac0f7
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 5 23:09:59 2021 +0700
+
+    UI improvements
+
+M	dimensions/dimension_entry.php
+M	inventory/cost_update.php
+M	themes/default/local_style/dimension_entry.css
+A	themes/default/local_style/item_units.css
+M	themes/default/local_style/locations.css
+M	themes/default/local_style/work_order_entry.css
+
+commit 100ea4fb62ab9f1f372ab94627e1f3cb3c15fad3
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Apr 5 09:56:26 2021 +0700
+
+    sales kits entry php 7.4 bug: trying to access array offset on value of type bool. Fixed
+
+M	inventory/manage/sales_kits.php
+
+commit e1dd158b8cf1a745e76b902e65221900321f932a
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Apr 4 11:36:16 2021 +0700
+
+    Sai giá trị $_SERVER['REQUEST_URI'] trên nginx server, đã sửa.
+
+M	includes/page/header.inc
+
+commit befcbb20f49aee6456748ed133ce4ce5b2f5aec0
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Apr 3 21:12:18 2021 +0700
+
+    Sai dữ liệu khởi tạo cho các nhóm tài khoản, đã sửa.
+
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit db46579b4b90962e24d730a3970da3025b35b19f
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Apr 2 11:50:07 2021 +0700
+
+    html5 migration
+
+M	access/login.php
+M	access/password_reset.php
+M	includes/page/header.inc
+
+commit d00c386efcdc4133cea996876dc0b53b72234672
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Thu Apr 1 07:45:12 2021 +0700
+
+    html5 migration
+
+M	access/login.php
+M	access/password_reset.php
+
+commit 028bf2dc683d3b3fd7f33fe44e385801816077aa
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Wed Mar 31 22:02:37 2021 +0700
+
+    Html5 migration
+
+M	README.md
+M	access/login.php
+M	access/password_reset.php
+M	includes/page/header.inc
+
+commit 67158097c9fffed6a10a65c6b89d899d980dbe00
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Mar 29 21:17:44 2021 +0700
+
+    Print Invoices list gets too long. Fixed by default 180 days in company setup
+
+M	admin/company_preferences.php
+M	reporting/includes/reports_classes.inc
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 456880570565d1a6469678657582b91d77929bed
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Mon Mar 29 16:05:28 2021 +0700
+
+    Updated forums link and favicon.ico
+
+M	README.md
+M	themes/default/images/favicon.ico
+
+commit b55db114311e1772fe264aa038b5bc000f092905
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Mar 28 20:41:49 2021 +0700
+
+    Ra mắt diễn đàn Quản Lý Việt
+
+M	README.md
+
+commit b45600975ace009d2fdb10f3372bd7202edec65d
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Mar 28 20:07:15 2021 +0700
+
+    New Logo has launched
+
+M	themes/default/images/favicon.ico
+M	themes/default/images/quanlyviet.jpg
+M	themes/default/images/quanlyviet.png
+
+commit 12276b9dd440fab17fa4fc905793425b1bf50fb1
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sun Mar 21 07:30:29 2021 +0700
+
+    php 7.4 bug Trying to access array offset on value of type bool. Fixed
+
+M	inventory/includes/db/items_units_db.inc
+
+commit aa96a6f56f0fada3c95b896873b00a727a74b886
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Sat Mar 20 20:20:34 2021 +0700
+
+    Code cleanup
+
+M	admin/attachments.php
+M	admin/backups.php
+M	admin/change_current_user_password.php
+M	admin/company_preferences.php
+M	admin/dashboard.php
+M	dashboard/includes/dashboard_classes.inc
+M	dashboard/widget102.php
+M	dashboard/widget104.php
+M	dashboard/widget202.php
+M	dashboard/widget701.php
+M	dashboard/widget808.php
+M	dashboard/widget810.php
+
+commit fd46957f42ec5b443b45428c452aa91fea0761b6
+Author: Tran Anh Phuong <trananhphuong83@gmail.com>
+Date:   Fri Mar 19 11:17:36 2021 +0700
+
+    Release 0.2
+
+M	CHANGELOG.txt
+M	README.md
+D	themes/canvas/images/logo_frontaccounting.jpg
+D	themes/canvas/images/logo_frontaccounting.png
+D	themes/canvas/images/notrinos_erp.png
+D	themes/dropdown/images/logo_frontaccounting.jpg
+D	themes/dropdown/images/logo_frontaccounting.png
+D	themes/dropdown/images/notrinos_erp.png
+M	version.php
+
+commit e79a368e8c6b7c3f5815e8735396ca91a8cfadf6
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Wed Mar 10 20:32:44 2021 +0700
+
+    Function get_magic_quotes_gpc() is deprecated php7.4. /install/isession.inc. Fixed.
+
+M	install/isession.inc
+
+commit c2627709342eea10aacebdbe2d470d48bcbd7489
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Wed Mar 10 14:49:24 2021 +0700
+
+    Update installation requirements
+
+M	README.md
+
+commit fc51e78ae247383445107d08f7911a1649c00d2e
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Mar 7 07:47:39 2021 +0700
+
+    theme improvement
+
+M	themes/default/local_style/gl_setup.css
+
+commit e7795cf3b25a21d207c92e90170c4940eb39386e
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sat Mar 6 09:54:31 2021 +0700
+
+    Continue of redesigning date input
+
+M	reporting/includes/reports_classes.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit e76a6a1fe139a7f3f4c50272fb1fe992b2c2d9b5
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Mar 5 08:51:59 2021 +0700
+
+    Syntax error from last commit, fixed
+
+M	js/behaviour.js
+
+commit c9bb3d577c04800127f87efec01b8948994a61f8
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Mon Mar 1 07:47:57 2021 +0700
+
+    Wrong Permission for Inventory Purchasing Report (rep306.php). Fixed.
+
+M	reporting/rep306.php
+
+commit 83bd9e53fac3d48c0b88b839013947be581b4f5a
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 28 22:05:06 2021 +0700
+
+    Fixed javascript error appearing on themes using SVGElements
+
+M	js/behaviour.js
+
+commit 983b9d59bf0dfb57c5d8f096d338dc3371c48184
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 28 19:57:55 2021 +0700
+
+    use datepicker by default
+
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit 03ff86ebe5269eb7406bdfc85ac5b17115765788
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 28 16:57:39 2021 +0700
+
+    Date input redesigned
+
+M	includes/ui/ui_input.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit fdc710e0d81ee7b5876cab346a959333476e3bff
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 28 14:18:29 2021 +0700
+
+    Datepicker ui improvement
+
+M	includes/ui/ui_view.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit 67dc3df6045caaf5c805bd4de18364b985cb7a07
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Feb 28 08:07:01 2021 +0700
+
+    Added months selector for datepicker
+
+M	includes/ui/ui_view.inc
+
+commit 979e3fee972b8170e3273473d8dc7d390b252477
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 26 22:52:44 2021 +0700
+
+    db_pager improvement: added page selector
+
+M	includes/db_pager.inc
+M	includes/ui/db_pager_view.inc
+M	themes/canvas/default.css
+M	themes/default/default.css
+M	themes/dropdown/default.css
+
+commit f737cf6e8582c32a3c5c72c551951fe199baae9d
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 26 18:01:19 2021 +0700
+
+    ui_lists.inc improvement
+
+M	includes/ui/ui_lists.inc
+
+commit aba1526f35ab76d29b9e58dec7f619bb2390670a
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Wed Feb 24 22:02:08 2021 +0700
+
+    Update user last visit
+
+M	sql/vi_VN-tt133-new.sql
+M	sql/vi_VN-tt200-new.sql
+
+commit b6478bc01d3c4f11eb79bbfd5edc8d0548480d78
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Wed Feb 24 14:30:57 2021 +0700
+
+    Updated extensions repository
+
+M	qlv.pem
+
+commit 8498965ca1b362d6a380bde3844e7eb80584562a
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sat Feb 20 15:50:15 2021 +0700
+
+    Wrong enclosure in gl_trans_view.php. fixed
+
+M	gl/view/gl_trans_view.php
+
+commit 166f30c9c16904337ffc3787069b01971e45aa1a
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 19 17:38:22 2021 +0700
+
+    Bug 5360: Spelling mistake in ../sales/allocations/customer_allocate.php. Fixed.
+
+M	sales/allocations/customer_allocate.php
+
+commit 29c1890361840079de2c7e98a1438cc73c7b8373
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Wed Feb 17 07:51:52 2021 +0700
+
+    PHP 7.4 Bugs in some reports.
+
+M	reporting/rep101.php
+M	reporting/rep115.php
+M	reporting/rep201.php
+M	reporting/rep206.php
+M	reporting/rep306.php
+M	reporting/rep710.php
+
+commit b481d23b3fafe97a06d4246aa52f084a2094bb29
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Tue Feb 16 08:01:54 2021 +0700
+
+    Bug 5352: missing global declaration in reset_form() in attachments.php. Fixed.
+
+M	admin/attachments.php
+M	purchasing/includes/db/invoice_db.inc
+
+commit ed6ef170128b7f5cfc7498d60040eb66221ff43a
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Mon Feb 15 15:36:06 2021 +0700
+
+    Bug 5351: dim dim2 not defined of purchasing/includes/db/invoice_db.inc. Fixed.
+
+M	purchasing/includes/db/invoice_db.inc
+
+commit f6f12b5ece4c032254eb9a14ec150c22a8c6150c
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 12 17:52:01 2021 +0700
+
+    Bug 5332: Rep709, Tax Report, Multiple entries for a sinle tax line. Fixed.
+
+M	reporting/rep709.php
+
+commit b4609019b812377d7e37433fca6c0621d4d8a96d
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Feb 12 00:53:22 2021 +0700
+
+    Bug 5310: DB error when on bank payment/transfer edit if current fiscal year is missing. Fixed.
+
+M	gl/includes/db/gl_db_banking.inc
+
+commit f7b61b003842712995fe08d3ea030d9289160b3d
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Thu Feb 4 16:27:10 2021 +0700
+
+    Bug in Customer/Supplier Payments Recording. Fixed.
+
+M	includes/ui/allocation_cart.inc
+
+commit 1cb981559e407eebcd057ab7e8ad1c9fbb3a31e6
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sun Jan 31 22:34:48 2021 +0700
+
+    Bug 5326 needs reversion for PHP < 5.5. Fixed
+
+M	includes/archive.inc
+
+commit f6bcfcb9e91196fc1ba5f503dad8eaafc1e3370e
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Fri Jan 29 17:46:58 2021 +0700
+
+    Thiếu font utf8. Đã thêm
+
+A	reporting/fonts/FreeSans.ttf
+
+commit 8188f4735885b65ff0484fbf755bdd151c64b722
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 26 13:39:25 2021 +0700
+
+    Thiếu font utf-8. Đã thêm.
+
+A	reporting/fonts/dejavu.ctg.z
+A	reporting/fonts/dejavu.php
+A	reporting/fonts/dejavu.z
+
+commit 4f8e6737f40d4d9a7d144d6a8d41c5c3baf08a60
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jan 23 23:00:13 2021 +0700
+
+    Update hướng dẫn
+
+M	README.md
+
+commit e5334bce2b55431f59dc955c98b4e40dc5d87f20
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Sat Jan 23 22:32:34 2021 +0700
+
+    Upload files
+
+A	.htaccess
+A	CHANGELOG.txt
+A	LICENSE
+A	Quanlyviet.php
+A	access/index.php
+A	access/login.php
+A	access/logout.php
+A	access/password_reset.php
+A	access/timeout.php
+A	admin/attachments.php
+A	admin/backups.php
+A	admin/change_current_user_password.php
+A	admin/company_preferences.php
+A	admin/create_coy.php
+A	admin/crm_categories.php
+A	admin/dashboard.php
+A	admin/db/attachments_db.inc
+A	admin/db/company_db.inc
+A	admin/db/fiscalyears_db.inc
+A	admin/db/index.php
+A	admin/db/maintenance_db.inc
+A	admin/db/printers_db.inc
+A	admin/db/security_db.inc
+A	admin/db/shipping_db.inc
+A	admin/db/tags_db.inc
+A	admin/db/transactions_db.inc
+A	admin/db/users_db.inc
+A	admin/db/voiding_db.inc
+A	admin/display_prefs.php
+A	admin/fiscalyears.php
+A	admin/forms_setup.php
+A	admin/gl_setup.php
+A	admin/includes/fa_patch.class.inc
+A	admin/includes/index.php
+A	admin/index.php
+A	admin/inst_chart.php
+A	admin/inst_lang.php
+A	admin/inst_module.php
+A	admin/inst_theme.php
+A	admin/inst_upgrade.php
+A	admin/payment_terms.php
+A	admin/print_profiles.php
+A	admin/printers.php
+A	admin/security_roles.php
+A	admin/shipping_companies.php
+A	admin/system_diagnostics.php
+A	admin/tags.php
+A	admin/users.php
+A	admin/view/view_package.php
+A	admin/view/view_upgrade_log.php
+A	admin/view_print_transaction.php
+A	admin/void_transaction.php
+A	applications/application.php
+A	applications/customers.php
+A	applications/dimensions.php
+A	applications/fixed_assets.php
+A	applications/generalledger.php
+A	applications/index.php
+A	applications/inventory.php
+A	applications/manufacturing.php
+A	applications/setup.php
+A	applications/suppliers.php
+A	company/0/backup/index.php
+A	company/0/images/102.jpg
+A	company/0/images/103.jpg
+A	company/0/images/104.jpg
+A	company/0/images/index.php
+A	company/0/images/logo_frontaccounting.jpg
+A	company/0/index.php
+A	company/0/js_cache/index.php
+A	company/0/pdf_files/index.php
+A	company/0/reporting/index.php
+A	company/index.php
+A	config.default.php
+A	dashboard/includes/dashboard_classes.inc
+A	dashboard/includes/index.php
+A	dashboard/index.php
+A	dashboard/widget101.php
+A	dashboard/widget102.php
+A	dashboard/widget103.php
+A	dashboard/widget104.php
+A	dashboard/widget201.php
+A	dashboard/widget202.php
+A	dashboard/widget203.php
+A	dashboard/widget301.php
+A	dashboard/widget302.php
+A	dashboard/widget401.php
+A	dashboard/widget402.php
+A	dashboard/widget501.php
+A	dashboard/widget502.php
+A	dashboard/widget601.php
+A	dashboard/widget602.php
+A	dashboard/widget701.php
+A	dashboard/widget702.php
+A	dashboard/widget703.php
+A	dashboard/widget704.php
+A	dashboard/widget801.php
+A	dashboard/widget802.php
+A	dashboard/widget803.php
+A	dashboard/widget804.php
+A	dashboard/widget805.php
+A	dashboard/widget806.php
+A	dashboard/widget807.php
+A	dashboard/widget808.php
+A	dashboard/widget809.php
+A	dashboard/widget810.php
+A	dashboard/widget811.php
+A	dimensions/dimension_entry.php
+A	dimensions/includes/dimensions_db.inc
+A	dimensions/includes/dimensions_ui.inc
+A	dimensions/includes/index.php
+A	dimensions/index.php
+A	dimensions/inquiry/index.php
+A	dimensions/inquiry/search_dimensions.php
+A	dimensions/view/index.php
+A	dimensions/view/view_dimension.php
+A	doc/index.php
+A	doc/license.txt
+A	fixed_assets/fixed_asset_classes.php
+A	fixed_assets/includes/depreciation.inc
+A	fixed_assets/includes/fa_classes_db.inc
+A	fixed_assets/includes/fixed_assets_db.inc
+A	fixed_assets/inquiry/stock_inquiry.php
+A	fixed_assets/process_depreciation.php
+A	gl/accruals.php
+A	gl/bank_account_reconcile.php
+A	gl/bank_transfer.php
+A	gl/gl_bank.php
+A	gl/gl_budget.php
+A	gl/gl_journal.php
+A	gl/includes/db/gl_db_account_types.inc
+A	gl/includes/db/gl_db_accounts.inc
+A	gl/includes/db/gl_db_bank_accounts.inc
+A	gl/includes/db/gl_db_bank_trans.inc
+A	gl/includes/db/gl_db_banking.inc
+A	gl/includes/db/gl_db_currencies.inc
+A	gl/includes/db/gl_db_rates.inc
+A	gl/includes/db/gl_db_trans.inc
+A	gl/includes/db/gl_journal.inc
+A	gl/includes/db/index.php
+A	gl/includes/gl_db.inc
+A	gl/includes/gl_ui.inc
+A	gl/includes/index.php
+A	gl/includes/ui/gl_bank_ui.inc
+A	gl/includes/ui/gl_journal_ui.inc
+A	gl/includes/ui/index.php
+A	gl/index.php
+A	gl/inquiry/accounts_list.php
+A	gl/inquiry/balance_sheet.php
+A	gl/inquiry/bank_inquiry.php
+A	gl/inquiry/gl_account_inquiry.php
+A	gl/inquiry/gl_trial_balance.php
+A	gl/inquiry/index.php
+A	gl/inquiry/journal_inquiry.php
+A	gl/inquiry/profit_loss.php
+A	gl/inquiry/tax_inquiry.php
+A	gl/manage/bank_accounts.php
+A	gl/manage/close_period.php
+A	gl/manage/currencies.php
+A	gl/manage/exchange_rates.php
+A	gl/manage/gl_account_classes.php
+A	gl/manage/gl_account_types.php
+A	gl/manage/gl_accounts.php
+A	gl/manage/gl_quick_entries.php
+A	gl/manage/index.php
+A	gl/manage/revaluate_currencies.php
+A	gl/view/accrual_trans.php
+A	gl/view/bank_transfer_view.php
+A	gl/view/gl_deposit_view.php
+A	gl/view/gl_payment_view.php
+A	gl/view/gl_trans_view.php
+A	gl/view/index.php
+A	includes/JsHttpRequest.php
+A	includes/access_levels.inc
+A	includes/ajax.inc
+A	includes/app_entries.inc
+A	includes/archive.inc
+A	includes/banking.inc
+A	includes/current_user.inc
+A	includes/data_checks.inc
+A	includes/date_functions.inc
+A	includes/db/allocations_db.inc
+A	includes/db/audit_trail_db.inc
+A	includes/db/class.data_set.inc
+A	includes/db/class.reflines_db.inc
+A	includes/db/comments_db.inc
+A	includes/db/connect_db.inc
+A	includes/db/connect_db_mysql.inc
+A	includes/db/connect_db_mysqli.inc
+A	includes/db/crm_contacts_db.inc
+A	includes/db/index.php
+A	includes/db/inventory_db.inc
+A	includes/db/manufacturing_db.inc
+A	includes/db/sql_functions.inc
+A	includes/db_pager.inc
+A	includes/errors.inc
+A	includes/hooks.inc
+A	includes/index.php
+A	includes/inventory.inc
+A	includes/lang/gettext.inc
+A	includes/lang/index.php
+A	includes/lang/language.inc
+A	includes/main.inc
+A	includes/packages.inc
+A	includes/page/footer.inc
+A	includes/page/header.inc
+A	includes/page/index.php
+A	includes/prefs/index.php
+A	includes/prefs/sysprefs.inc
+A	includes/prefs/userprefs.inc
+A	includes/references.inc
+A	includes/remote_url.inc
+A	includes/session.inc
+A	includes/sysnames.inc
+A	includes/system_tests.inc
+A	includes/types.inc
+A	includes/ui.inc
+A	includes/ui/allocation_cart.inc
+A	includes/ui/attachment.inc
+A	includes/ui/class.crud_view.inc
+A	includes/ui/class.reflines_crud.inc
+A	includes/ui/contacts_view.inc
+A	includes/ui/db_pager_view.inc
+A	includes/ui/index.php
+A	includes/ui/items_cart.inc
+A	includes/ui/simple_crud_class.inc
+A	includes/ui/ui_controls.inc
+A	includes/ui/ui_globals.inc
+A	includes/ui/ui_input.inc
+A	includes/ui/ui_lists.inc
+A	includes/ui/ui_msgs.inc
+A	includes/ui/ui_view.inc
+A	index.php
+A	install/index.php
+A	install/isession.inc
+A	install/lang/new_language_template/LC_MESSAGES/empty.po
+A	install/lang/vi_VN/LC_MESSAGES/vi_VN.mo
+A	install/lang/vi_VN/LC_MESSAGES/vi_VN.php
+A	install/lang/vi_VN/LC_MESSAGES/vi_VN.po
+A	install/stylesheet.css
+A	inventory/adjustments.php
+A	inventory/cost_update.php
+A	inventory/includes/db/index.php
+A	inventory/includes/db/items_adjust_db.inc
+A	inventory/includes/db/items_category_db.inc
+A	inventory/includes/db/items_codes_db.inc
+A	inventory/includes/db/items_db.inc
+A	inventory/includes/db/items_locations_db.inc
+A	inventory/includes/db/items_prices_db.inc
+A	inventory/includes/db/items_purchases_db.inc
+A	inventory/includes/db/items_trans_db.inc
+A	inventory/includes/db/items_transfer_db.inc
+A	inventory/includes/db/items_units_db.inc
+A	inventory/includes/index.php
+A	inventory/includes/inventory_db.inc
+A	inventory/includes/item_adjustments_ui.inc
+A	inventory/includes/stock_transfers_ui.inc
+A	inventory/index.php
+A	inventory/inquiry/index.php
+A	inventory/inquiry/stock_list.php
+A	inventory/inquiry/stock_movements.php
+A	inventory/inquiry/stock_status.php
+A	inventory/manage/index.php
+A	inventory/manage/item_categories.php
+A	inventory/manage/item_codes.php
+A	inventory/manage/item_units.php
+A	inventory/manage/items.php
+A	inventory/manage/locations.php
+A	inventory/manage/sales_kits.php
+A	inventory/prices.php
+A	inventory/purchasing_data.php
+A	inventory/reorder_level.php
+A	inventory/transfers.php
+A	inventory/view/index.php
+A	inventory/view/view_adjustment.php
+A	inventory/view/view_transfer.php
+A	js/JsHttpRequest.js
+A	js/allocate.js
+A	js/behaviour.js
+A	js/budget.js
+A	js/index.php
+A	js/inserts.js
+A	js/login.js
+A	js/payalloc.js
+A	js/reconcile.js
+A	js/reports.js
+A	js/utils.js
+A	lang/en_US/LC_MESSAGES/en_US.mo
+A	lang/index.php
+A	lang/new_language_template/LC_MESSAGES/empty.po
+A	lang/new_language_template/locale.inc
+A	lang/vi_VN/LC_MESSAGES/vi_VN.mo
+A	lang/vi_VN/LC_MESSAGES/vi_VN.po
+A	manufacturing/includes/db/index.php
+A	manufacturing/includes/db/work_centres_db.inc
+A	manufacturing/includes/db/work_order_costing_db.inc
+A	manufacturing/includes/db/work_order_issues_db.inc
+A	manufacturing/includes/db/work_order_produce_items_db.inc
+A	manufacturing/includes/db/work_order_requirements_db.inc
+A	manufacturing/includes/db/work_orders_db.inc
+A	manufacturing/includes/index.php
+A	manufacturing/includes/manufacturing_db.inc
+A	manufacturing/includes/manufacturing_ui.inc
+A	manufacturing/includes/work_order_issue_ui.inc
+A	manufacturing/index.php
+A	manufacturing/inquiry/bom_cost_inquiry.php
+A	manufacturing/inquiry/index.php
+A	manufacturing/inquiry/where_used_inquiry.php
+A	manufacturing/manage/bom_edit.php
+A	manufacturing/manage/index.php
+A	manufacturing/manage/work_centres.php
+A	manufacturing/search_work_orders.php
+A	manufacturing/view/index.php
+A	manufacturing/view/wo_costs_view.php
+A	manufacturing/view/wo_issue_view.php
+A	manufacturing/view/wo_production_view.php
+A	manufacturing/view/work_order_view.php
+A	manufacturing/work_order_add_finished.php
+A	manufacturing/work_order_costs.php
+A	manufacturing/work_order_entry.php
+A	manufacturing/work_order_issue.php
+A	manufacturing/work_order_release.php
+A	modules/_cache/index.php
+A	modules/index.php
+A	purchasing/allocations/index.php
+A	purchasing/allocations/supplier_allocate.php
+A	purchasing/allocations/supplier_allocation_main.php
+A	purchasing/includes/db/grn_db.inc
+A	purchasing/includes/db/index.php
+A	purchasing/includes/db/invoice_db.inc
+A	purchasing/includes/db/invoice_items_db.inc
+A	purchasing/includes/db/po_db.inc
+A	purchasing/includes/db/supp_payment_db.inc
+A	purchasing/includes/db/supp_trans_db.inc
+A	purchasing/includes/db/suppalloc_db.inc
+A	purchasing/includes/db/suppliers_db.inc
+A	purchasing/includes/index.php
+A	purchasing/includes/po_class.inc
+A	purchasing/includes/purchasing_db.inc
+A	purchasing/includes/purchasing_ui.inc
+A	purchasing/includes/supp_trans_class.inc
+A	purchasing/includes/ui/grn_ui.inc
+A	purchasing/includes/ui/index.php
+A	purchasing/includes/ui/invoice_ui.inc
+A	purchasing/includes/ui/po_ui.inc
+A	purchasing/index.php
+A	purchasing/inquiry/index.php
+A	purchasing/inquiry/po_search.php
+A	purchasing/inquiry/po_search_completed.php
+A	purchasing/inquiry/supplier_allocation_inquiry.php
+A	purchasing/inquiry/supplier_inquiry.php
+A	purchasing/inquiry/suppliers_list.php
+A	purchasing/manage/index.php
+A	purchasing/manage/suppliers.php
+A	purchasing/po_entry_items.php
+A	purchasing/po_receive_items.php
+A	purchasing/supplier_credit.php
+A	purchasing/supplier_invoice.php
+A	purchasing/supplier_payment.php
+A	purchasing/view/index.php
+A	purchasing/view/view_grn.php
+A	purchasing/view/view_po.php
+A	purchasing/view/view_supp_credit.php
+A	purchasing/view/view_supp_invoice.php
+A	purchasing/view/view_supp_payment.php
+A	qlv.pem
+A	reporting/fonts/LiberationSans-Regular.ttf
+A	reporting/fonts/courier.php
+A	reporting/fonts/helvetica.php
+A	reporting/fonts/helveticab.php
+A	reporting/fonts/helveticabi.php
+A	reporting/fonts/helveticai.php
+A	reporting/fonts/symbol.php
+A	reporting/fonts/times.php
+A	reporting/fonts/timesb.php
+A	reporting/fonts/timesbi.php
+A	reporting/fonts/timesi.php
+A	reporting/fonts/zapfdingbats.php
+A	reporting/fonts/zarnormal.ttf
+A	reporting/forms/index.php
+A	reporting/includes/Workbook.php
+A	reporting/includes/barcodes.php
+A	reporting/includes/class.graphic.inc
+A	reporting/includes/class.mail.inc
+A	reporting/includes/class.pdf.inc
+A	reporting/includes/doctext.inc
+A	reporting/includes/excel_report.inc
+A	reporting/includes/fpdi/decoders/ASCII85Decode.php
+A	reporting/includes/fpdi/decoders/LZWDecode.php
+A	reporting/includes/fpdi/fpdf_tpl.php
+A	reporting/includes/fpdi/fpdi.php
+A	reporting/includes/fpdi/fpdi2tcpdf_bridge.php
+A	reporting/includes/fpdi/fpdi_pdf_parser.php
+A	reporting/includes/fpdi/pdf_context.php
+A	reporting/includes/fpdi/pdf_parser.php
+A	reporting/includes/fpdi/wrapper_functions.php
+A	reporting/includes/header2.inc
+A	reporting/includes/html_entity_decode_php4.php
+A	reporting/includes/htmlcolors.php
+A	reporting/includes/index.php
+A	reporting/includes/pdf_report.inc
+A	reporting/includes/printer_class.inc
+A	reporting/includes/reporting.inc
+A	reporting/includes/reports_classes.inc
+A	reporting/includes/tcpdf.php
+A	reporting/includes/unicode_data2.php
+A	reporting/index.php
+A	reporting/prn_redirect.php
+A	reporting/rep101.php
+A	reporting/rep102.php
+A	reporting/rep103.php
+A	reporting/rep104.php
+A	reporting/rep105.php
+A	reporting/rep106.php
+A	reporting/rep107.php
+A	reporting/rep108.php
+A	reporting/rep109.php
+A	reporting/rep110.php
+A	reporting/rep111.php
+A	reporting/rep112.php
+A	reporting/rep113.php
+A	reporting/rep114.php
+A	reporting/rep115.php
+A	reporting/rep201.php
+A	reporting/rep202.php
+A	reporting/rep203.php
+A	reporting/rep204.php
+A	reporting/rep205.php
+A	reporting/rep206.php
+A	reporting/rep209.php
+A	reporting/rep210.php
+A	reporting/rep301.php
+A	reporting/rep302.php
+A	reporting/rep303.php
+A	reporting/rep304.php
+A	reporting/rep305.php
+A	reporting/rep306.php
+A	reporting/rep307.php
+A	reporting/rep308.php
+A	reporting/rep309.php
+A	reporting/rep310.php
+A	reporting/rep401.php
+A	reporting/rep402.php
+A	reporting/rep409.php
+A	reporting/rep451.php
+A	reporting/rep501.php
+A	reporting/rep601.php
+A	reporting/rep602.php
+A	reporting/rep701.php
+A	reporting/rep702.php
+A	reporting/rep704.php
+A	reporting/rep705.php
+A	reporting/rep706.php
+A	reporting/rep707.php
+A	reporting/rep708.php
+A	reporting/rep709.php
+A	reporting/rep710.php
+A	reporting/reports_main.php
+A	sales/allocations/customer_allocate.php
+A	sales/allocations/customer_allocation_main.php
+A	sales/allocations/index.php
+A	sales/create_recurrent_invoices.php
+A	sales/credit_note_entry.php
+A	sales/customer_credit_invoice.php
+A	sales/customer_delivery.php
+A	sales/customer_invoice.php
+A	sales/customer_payments.php
+A	sales/includes/cart_class.inc
+A	sales/includes/db/branches_db.inc
+A	sales/includes/db/credit_status_db.inc
+A	sales/includes/db/cust_trans_db.inc
+A	sales/includes/db/cust_trans_details_db.inc
+A	sales/includes/db/custalloc_db.inc
+A	sales/includes/db/customers_db.inc
+A	sales/includes/db/index.php
+A	sales/includes/db/payment_db.inc
+A	sales/includes/db/recurrent_invoices_db.inc
+A	sales/includes/db/sales_credit_db.inc
+A	sales/includes/db/sales_delivery_db.inc
+A	sales/includes/db/sales_groups_db.inc
+A	sales/includes/db/sales_invoice_db.inc
+A	sales/includes/db/sales_order_db.inc
+A	sales/includes/db/sales_points_db.inc
+A	sales/includes/db/sales_types_db.inc
+A	sales/includes/index.php
+A	sales/includes/sales_db.inc
+A	sales/includes/sales_ui.inc
+A	sales/includes/ui/sales_credit_ui.inc
+A	sales/includes/ui/sales_order_ui.inc
+A	sales/index.php
+A	sales/inquiry/customer_allocation_inquiry.php
+A	sales/inquiry/customer_branches_list.php
+A	sales/inquiry/customer_inquiry.php
+A	sales/inquiry/customers_list.php
+A	sales/inquiry/index.php
+A	sales/inquiry/sales_deliveries_view.php
+A	sales/inquiry/sales_orders_view.php
+A	sales/manage/credit_status.php
+A	sales/manage/customer_branches.php
+A	sales/manage/customers.php
+A	sales/manage/index.php
+A	sales/manage/recurrent_invoices.php
+A	sales/manage/sales_areas.php
+A	sales/manage/sales_groups.php
+A	sales/manage/sales_people.php
+A	sales/manage/sales_points.php
+A	sales/manage/sales_types.php
+A	sales/sales_order_entry.php
+A	sales/view/index.php
+A	sales/view/view_credit.php
+A	sales/view/view_dispatch.php
+A	sales/view/view_invoice.php
+A	sales/view/view_receipt.php
+A	sales/view/view_sales_order.php
+A	sql/index.php
+A	sql/vi_VN-tt133-new.sql
+A	sql/vi_VN-tt200-new.sql
+A	taxes/db/index.php
+A	taxes/db/item_tax_types_db.inc
+A	taxes/db/tax_groups_db.inc
+A	taxes/db/tax_types_db.inc
+A	taxes/index.php
+A	taxes/item_tax_types.php
+A	taxes/tax_calc.inc
+A	taxes/tax_groups.php
+A	taxes/tax_types.php
+A	themes/canvas/default.css
+A	themes/canvas/images/add.png
+A	themes/canvas/images/ajax-loader.gif
+A	themes/canvas/images/ajax-loader2.gif
+A	themes/canvas/images/alloc.png
+A	themes/canvas/images/arrow_12.gif
+A	themes/canvas/images/body_bg.png
+A	themes/canvas/images/button_ok.png
+A	themes/canvas/images/cal.gif
+A	themes/canvas/images/cancel.png
+A	themes/canvas/images/closed.png
+A	themes/canvas/images/content_bg.png
+A	themes/canvas/images/credit.gif
+A	themes/canvas/images/delete.gif
+A	themes/canvas/images/delete.svg
+A	themes/canvas/images/download.gif
+A	themes/canvas/images/download.svg
+A	themes/canvas/images/edit.gif
+A	themes/canvas/images/edit.svg
+A	themes/canvas/images/enter.png
+A	themes/canvas/images/escape.png
+A	themes/canvas/images/folder.gif
+A	themes/canvas/images/footer_bg.png
+A	themes/canvas/images/gl.png
+A	themes/canvas/images/gl.svg
+A	themes/canvas/images/help.gif
+A	themes/canvas/images/index.php
+A	themes/canvas/images/invoice.gif
+A	themes/canvas/images/link_bg.png
+A	themes/canvas/images/locate.png
+A	themes/canvas/images/lock.gif
+A	themes/canvas/images/login.gif
+A	themes/canvas/images/logo_frontaccounting.jpg
+A	themes/canvas/images/logo_frontaccounting.png
+A	themes/canvas/images/menu_break.png
+A	themes/canvas/images/money.png
+A	themes/canvas/images/news.gif
+A	themes/canvas/images/notrinos_erp.png
+A	themes/canvas/images/ok.gif
+A	themes/canvas/images/ok.svg
+A	themes/canvas/images/page_edit.png
+A	themes/canvas/images/pdf.gif
+A	themes/canvas/images/preferences.gif
+A	themes/canvas/images/print.png
+A	themes/canvas/images/progressbar.gif
+A	themes/canvas/images/receive.gif
+A	themes/canvas/images/remove.png
+A	themes/canvas/images/report.png
+A	themes/canvas/images/sort_asc.gif
+A	themes/canvas/images/sort_asc2.gif
+A	themes/canvas/images/sort_desc.gif
+A	themes/canvas/images/sort_desc2.gif
+A	themes/canvas/images/sort_none.gif
+A	themes/canvas/images/spacer.png
+A	themes/canvas/images/view.gif
+A	themes/canvas/images/view.svg
+A	themes/canvas/images/warning.png
+A	themes/canvas/index.php
+A	themes/canvas/renderer.php
+A	themes/default/default.css
+A	themes/default/images/add.png
+A	themes/default/images/ajax-loader.gif
+A	themes/default/images/ajax-loader2.gif
+A	themes/default/images/alloc.png
+A	themes/default/images/button_ok.png
+A	themes/default/images/cal.gif
+A	themes/default/images/cal.svg
+A	themes/default/images/cancel.png
+A	themes/default/images/closed.png
+A	themes/default/images/credit.gif
+A	themes/default/images/dashboard.svg
+A	themes/default/images/delete.gif
+A	themes/default/images/delete.svg
+A	themes/default/images/download.gif
+A	themes/default/images/download.svg
+A	themes/default/images/edit.gif
+A	themes/default/images/edit.svg
+A	themes/default/images/escape.png
+A	themes/default/images/favicon.ico
+A	themes/default/images/gl.png
+A	themes/default/images/gl.svg
+A	themes/default/images/help.gif
+A	themes/default/images/help.svg
+A	themes/default/images/index.php
+A	themes/default/images/invoice.gif
+A	themes/default/images/key.svg
+A	themes/default/images/locate.png
+A	themes/default/images/lock.gif
+A	themes/default/images/log.png
+A	themes/default/images/login.gif
+A	themes/default/images/logout.svg
+A	themes/default/images/menu_entry.png
+A	themes/default/images/menu_entry.svg
+A	themes/default/images/menu_inquiry.png
+A	themes/default/images/menu_inquiry.svg
+A	themes/default/images/menu_maintenance.png
+A	themes/default/images/menu_maintenance.svg
+A	themes/default/images/menu_report.png
+A	themes/default/images/menu_report.svg
+A	themes/default/images/menu_settings.png
+A	themes/default/images/menu_settings.svg
+A	themes/default/images/menu_system.png
+A	themes/default/images/menu_system.svg
+A	themes/default/images/menu_transaction.png
+A	themes/default/images/menu_transaction.svg
+A	themes/default/images/menu_update.png
+A	themes/default/images/menu_update.svg
+A	themes/default/images/money.png
+A	themes/default/images/ok.gif
+A	themes/default/images/ok.svg
+A	themes/default/images/pdf.gif
+A	themes/default/images/preferences.gif
+A	themes/default/images/preferences.svg
+A	themes/default/images/print.png
+A	themes/default/images/progressbar.gif
+A	themes/default/images/quanlyviet.jpg
+A	themes/default/images/quanlyviet.png
+A	themes/default/images/receive.gif
+A	themes/default/images/remove.png
+A	themes/default/images/report.png
+A	themes/default/images/right.gif
+A	themes/default/images/sort_asc.gif
+A	themes/default/images/sort_desc.gif
+A	themes/default/images/sort_none.gif
+A	themes/default/images/spacer.png
+A	themes/default/images/view.gif
+A	themes/default/images/view.svg
+A	themes/default/images/warning.png
+A	themes/default/index.php
+A	themes/default/local_style/accruals.css
+A	themes/default/local_style/attachments.css
+A	themes/default/local_style/bank_accounts.css
+A	themes/default/local_style/bank_transfer.css
+A	themes/default/local_style/company_preferences.css
+A	themes/default/local_style/create_coy.css
+A	themes/default/local_style/crm_categories.css
+A	themes/default/local_style/currencies.css
+A	themes/default/local_style/customer_branches.css
+A	themes/default/local_style/customers.css
+A	themes/default/local_style/dashboard.css
+A	themes/default/local_style/dimension_entry.css
+A	themes/default/local_style/display_prefs.css
+A	themes/default/local_style/gl_account_classes.css
+A	themes/default/local_style/gl_account_types.css
+A	themes/default/local_style/gl_accounts.css
+A	themes/default/local_style/gl_quick_entries.css
+A	themes/default/local_style/gl_setup.css
+A	themes/default/local_style/index.php
+A	themes/default/local_style/item_categories.css
+A	themes/default/local_style/item_codes.css
+A	themes/default/local_style/items.css
+A	themes/default/local_style/locations.css
+A	themes/default/local_style/printers.css
+A	themes/default/local_style/purchasing_data.css
+A	themes/default/local_style/recurrent_invoices.css
+A	themes/default/local_style/sales_kits.css
+A	themes/default/local_style/sales_people.css
+A	themes/default/local_style/sales_points.css
+A	themes/default/local_style/sales_types.css
+A	themes/default/local_style/shipping_companies.css
+A	themes/default/local_style/suppliers.css
+A	themes/default/local_style/tags.css
+A	themes/default/local_style/tax_types.css
+A	themes/default/local_style/users.css
+A	themes/default/local_style/work_centres.css
+A	themes/default/local_style/work_order_entry.css
+A	themes/default/renderer.php
+A	themes/dropdown/default.css
+A	themes/dropdown/images/add.png
+A	themes/dropdown/images/ajax-loader.gif
+A	themes/dropdown/images/ajax-loader2.gif
+A	themes/dropdown/images/arrow_12.gif
+A	themes/dropdown/images/basket.png
+A	themes/dropdown/images/body_bg.png
+A	themes/dropdown/images/breadcrumb.gif
+A	themes/dropdown/images/button_ok.png
+A	themes/dropdown/images/cal.gif
+A	themes/dropdown/images/cancel.png
+A	themes/dropdown/images/closed.png
+A	themes/dropdown/images/cog.png
+A	themes/dropdown/images/content_bg.png
+A	themes/dropdown/images/controller.png
+A	themes/dropdown/images/credit.gif
+A	themes/dropdown/images/delete.gif
+A	themes/dropdown/images/delete.svg
+A	themes/dropdown/images/download.gif
+A	themes/dropdown/images/download.svg
+A	themes/dropdown/images/edit.gif
+A	themes/dropdown/images/edit.svg
+A	themes/dropdown/images/enter.png
+A	themes/dropdown/images/escape.png
+A	themes/dropdown/images/folder.gif
+A	themes/dropdown/images/footer_bg.png
+A	themes/dropdown/images/gl.png
+A	themes/dropdown/images/gl.svg
+A	themes/dropdown/images/help.gif
+A	themes/dropdown/images/index.php
+A	themes/dropdown/images/invoice.gif
+A	themes/dropdown/images/link_bg.png
+A	themes/dropdown/images/locate.png
+A	themes/dropdown/images/lock.gif
+A	themes/dropdown/images/login.gif
+A	themes/dropdown/images/logo_frontaccounting.jpg
+A	themes/dropdown/images/logo_frontaccounting.png
+A	themes/dropdown/images/menu_break.png
+A	themes/dropdown/images/money.png
+A	themes/dropdown/images/news.gif
+A	themes/dropdown/images/notrinos_erp.png
+A	themes/dropdown/images/ok.gif
+A	themes/dropdown/images/ok.svg
+A	themes/dropdown/images/on_off.png
+A	themes/dropdown/images/page_edit.png
+A	themes/dropdown/images/pdf.gif
+A	themes/dropdown/images/preferences.gif
+A	themes/dropdown/images/print.png
+A	themes/dropdown/images/progressbar.gif
+A	themes/dropdown/images/receive.gif
+A	themes/dropdown/images/remove.png
+A	themes/dropdown/images/report.png
+A	themes/dropdown/images/sort_asc.gif
+A	themes/dropdown/images/sort_asc2.gif
+A	themes/dropdown/images/sort_desc.gif
+A	themes/dropdown/images/sort_desc2.gif
+A	themes/dropdown/images/sort_none.gif
+A	themes/dropdown/images/spacer.png
+A	themes/dropdown/images/test.png
+A	themes/dropdown/images/test_stock.png
+A	themes/dropdown/images/time.png
+A	themes/dropdown/images/transparent.gif
+A	themes/dropdown/images/view.gif
+A	themes/dropdown/images/view.svg
+A	themes/dropdown/images/warning.png
+A	themes/dropdown/index.php
+A	themes/dropdown/renderer.php
+A	tmp/index.php
+A	version.php
+
+commit 8c1e826a71476078077b04a8f28ef0c711aa69a6
+Author: Notrinos <trananhphuong83@gmail.com>
+Date:   Tue Jan 19 17:38:16 2021 +0700
+
+    Cập nhật tên gọi
+
+M	README.md
+
+commit 102ab2c0b84e6cfb1f2617ec333e194731c442be
+Author: Phương <trananhphuong83@gmail.com>
+Date:   Thu Jan 14 20:55:49 2021 +0700
+
+    Update thông báo
+
+M	README.md
+
+commit 8f56b1c99622162c1e927ce53ca8ed361fb417a7
+Author: Phương <trananhphuong83@gmail.com>
+Date:   Thu Jan 14 20:49:55 2021 +0700
+
+    Update README.md
+
+M	README.md
+
+commit 9df2a1ee02d826a06aa9f0a5df12d28be97260ed
+Author: Phương <trananhphuong83@gmail.com>
+Date:   Thu Jan 14 20:48:10 2021 +0700
+
+    Cập nhật thông báo
+
+M	README.md
+
+commit 60b57e47a1dd5ba7c4df0636dfaca66f58201283
+Author: aodieu <76651235+aodieu@users.noreply.github.com>
+Date:   Sun Dec 27 19:52:27 2020 +0700
+
+    Create README.md
+
+A	README.md
